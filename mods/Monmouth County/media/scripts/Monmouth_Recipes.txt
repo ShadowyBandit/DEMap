@@ -1,0 +1,179 @@
+module MonmouthRecipes {
+  imports {
+      Base
+  }
+
+    recipe Craft Judge's Helmet
+	{
+	    Hat_CrashHelmetFULL,
+		Glue,
+	    PaintGreen,
+	    Glasses_Sun,
+	    LeatherStrips=2,
+	    Scalpel,
+	    BlowTorch=2,
+	    Hammer,
+	    SmallSheetMetal=2,
+        keep WeldingMask,
+
+	    Result:Helmet_Judge,
+		SkillRequired:MetalWelding=3,
+	    Time:120.0,
+        Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+	
+    recipe Craft Bunny Ears
+	{
+		keep Paintbrush,
+		Hat_BunnyEarsBlack/Hat_BunnyEarsWhite,
+		PaintPink=2,
+		Result : Hat_BunnyEarsAmelora,
+		Time : 40.0,
+		Category : Painting,
+	}
+	
+    recipe Craft Mooby's Head
+	{
+	    Glue,
+	    PaintYellow,
+	    Glasses_Sun,
+	    LeatherStrips=12,
+		Plank=2,
+	    Scalpel,
+
+	    Result:Mask_Mooby,
+	    SkillRequired:Tailoring=1,
+	    Time:120.0,
+	    Category:Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring15,
+	}
+	
+		recipe Craft Bunny Mask
+	{
+		keep Paintbrush,
+		Hat_BunnyEarsBlack/Hat_BunnyEarsWhite,
+		PaintPink=2,
+		PaintGrey=2,
+	    LeatherStrips=2,
+		Plank,
+
+	    Result:Mask_AmeloraBunny,
+	    SkillRequired:Tailoring=1,
+	    Time:120.0,
+	    Category:Tailoring,
+	}
+	
+	    recipe Create Reinforced Hammer
+	{
+	    BlowTorch=2,
+	    Hammer,
+	    SmallSheetMetal=2,
+	    Nails=6,
+	    Screws=4,
+        keep WeldingMask,
+
+	    Result:Hammer_Reinforced,
+	    Time:250.0,
+        Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+        SkillRequired:MetalWelding=2,
+	}
+	
+	    recipe Create Pink Pickaxe
+	{
+		keep Paintbrush,
+		PickAxe,
+		PaintPink=3,
+		PaintWhite=1,
+		Result : PickAxePink,
+		Time : 40.0,
+		Category : Painting,
+	}
+	
+	    recipe Create Gungnir Replica
+	{
+	    BlowTorch=2,
+	    SpearCrafted,
+	    ClubHammer,
+	    SheetMetal,
+        keep WeldingMask,
+
+	    Result:SpearGungnir,
+	    Time:250.0,
+        Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+        SkillRequired:MetalWelding=2,
+	}		
+	
+	    recipe Create Scorpion Crowbar
+	{
+	    BlowTorch=2,
+		PaintGreen=2,
+		PaintBlack=2,
+	    Crowbar,
+	    Corkscrew,
+	    ElectricWire,
+		keep Paintbrush,
+        keep WeldingMask,
+
+	    Result:CrowbarScorpion,
+	    Time:250.0,
+        Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+        SkillRequired:MetalWelding=2,
+	}		
+	
+	    recipe Create Repurposed Axe
+	{
+	    BlowTorch=2,
+	    WoodAxe,
+	    Nails=4,
+	    Screws=2,
+        keep WeldingMask,
+
+	    Result:AxeBZMCrafted,
+	    Time:250.0,
+        Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+        SkillRequired:MetalWelding=1,
+	}
+	
+	    recipe Create Lawgiver MKII
+	{
+	    BlowTorch=2,
+		Pistol,
+	    SmallSheetMetal,
+	    Screws=2,
+		MotionSensor,
+		LightBulbCyan,
+        keep WeldingMask,
+
+	    Result:LawgiverMKII2012,
+	    Time:250.0,
+        Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+        SkillRequired:MetalWelding=2,
+	}
+
+	    recipe Create Lawgiver MKII Clip
+	{
+	    BlowTorch=2,
+		9mmClip,
+	    SmallSheetMetal,
+	    Screws=2,
+        keep WeldingMask,
+
+	    Result:LawgiverMKII2012Clip,
+	    Time:250.0,
+        Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+        SkillRequired:MetalWelding=2,
+	}
+	
+}
+
+
+
+
+

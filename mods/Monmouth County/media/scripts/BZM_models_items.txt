@@ -1,0 +1,335 @@
+module Base
+
+/*All models with AuthenticZ_pretext are created by Authentic Peach*/
+
+{
+	model Mask_AmeloraBunny_Ground
+	{
+		mesh = WorldItems/WorldItem_Mask_AmeloraBunny,
+		texture = clothes/hat/Mask_AmeloraBunny,
+	}
+	
+	model Judge_Helmet_Ground
+	{
+		mesh = WorldItems/WorldItem_Helmet_Judge,
+		texture = clothes/hat/Helmet_Judge,
+	}
+	
+	model AxeUnknown_Ground
+	{
+		mesh = WorldItems/WorldItem_AxeUnknown,
+		texture = weapons/2handed/AxeUnknown,
+	}
+	
+	model CrowbarScorpion_Ground
+	{
+		mesh = WorldItems/WorldItem_CrowbarScorpion,
+		texture = weapons/2handed/CrowbarScorpion,
+	}
+	
+	model Crowbarski_Ground
+	{
+		mesh = WorldItems/WorldItem_CrowbarScorpion,
+		texture = weapons/2handed/CrowbarSki,
+	}
+	
+	model Hammer_Reinforced_Ground
+	{
+		mesh = WorldItems/WorldItem_Hammer_Reinforced,
+		texture = weapons/1handed/Hammer_Reinforced,
+	}
+	
+	model SpearGungnir_Ground
+	{
+		mesh = WorldItems/WorldItem_SpearGungnir,
+		texture = weapons/2handed/SpearGungnir,
+	}
+	
+	model KukriMacheteSpike_Ground
+	{
+		mesh = WorldItems/WorldItem_KukriMacheteSpike,
+		texture = weapons/1handed/KukriMacheteSpike,
+	}
+	
+	model Mask_Mooby_Ground
+	{
+		mesh = WorldItems/WorldItem_MoobyHead,
+		texture = clothes/hat/Mask_MoobyHead,
+	}
+	
+	model BZMCanteenBlack
+	{
+		mesh = AuthenticZ_Canteen,
+		texture = clothes/Items/CanteenBlack,
+	}
+	
+	model WorldItem_CanteenBlack
+    {
+		mesh = WorldItems/WorldItem_AuthenticZ_Canteen,
+		texture = clothes/Items/CanteenBlack,
+    }
+	
+	model BZMCanteenLime
+	{
+		mesh = AuthenticZ_Canteen,
+		texture = clothes/Items/CanteenLime,
+	}
+	
+	model WorldItem_CanteenLime
+    {
+		mesh = WorldItems/WorldItem_AuthenticZ_Canteen,
+		texture = clothes/Items/CanteenLime,
+    }
+	
+	model BZMCanteenPurple
+	{
+		mesh = AuthenticZ_Canteen,
+		texture = clothes/Items/CanteenPurple,
+	}
+	
+	model WorldItem_CanteenPurple
+    {
+		mesh = WorldItems/WorldItem_AuthenticZ_Canteen,
+		texture = clothes/Items/CanteenPurple,
+    }
+	
+	model GasMaskNotWorn
+	{
+		mesh = AuthenticZ_GasMaskUnequiped,
+		texture = GasMask,
+	}
+	
+	model BZM_MilitaryFlashlightBlack
+	{
+		mesh = AuthenticZ_MilitaryFlashlight,
+		texture = clothes/Items/MilitaryFlashlightBlack,
+	}
+	
+	model BZM_MilitaryFlashlightPurple
+	{
+		mesh = AuthenticZ_MilitaryFlashlight,
+		texture = clothes/Items/MilitaryFlashlightPurple,
+	}
+	
+	model Carabiner
+	{
+		mesh = AuthenticZ_Carabiner,
+		texture = clothes/Items/CarabinerClip,
+		scale = 0.6,
+	}
+	
+	model Rubberducky
+    {
+        mesh = WorldItems/Rubberducky,
+        texture = WorldItems/RubberDuck,		
+        scale = 0.4,
+    }
+
+	model DreddSpiffodPlushie
+	{
+		mesh = Plushiedreddspiffo,
+		texture = clothes/Items/DreddSpiffo,		
+	}
+	
+	model WorldItem_DreddSpiffodPlushie
+	{
+		mesh = WorldItems/WorldItem_dreddspiffo,
+		texture = clothes/Items/DreddSpiffo,	
+		scale = 0.5,
+	}
+	model BatmanSpiffodPlushie
+	{
+		mesh = PlushSpiffoBM,
+		texture = clothes/Items/BatmanSpiffo,	
+		scale = 0.4,		
+	}
+	
+	model WorldItem_BatmanSpiffodPlushie
+	{
+		mesh = WorldItems/WorldItem_PlushSpiffoBM,
+		texture = clothes/Items/BatmanSpiffo,	
+		scale = 0.5,
+	}
+	
+	model MonkeyPlushie
+	{
+		mesh = PlushieMonkey,
+		texture = clothes/Items/MonkeyPlushie,	
+		scale = 0.4,		
+	}
+	
+	model WorldItem_MonkeyPlushie
+	{
+		mesh = WorldItems/WorldItem_PlushieMonkey,
+		texture = clothes/Items/MonkeyPlushie,
+		scale = 0.5,
+	}
+
+	model BunnyPlushie
+	{
+		mesh = PlushieBunny,
+		texture = clothes/Items/BunnyPlushie,	
+		scale = 0.4,		
+	}
+	
+	model WorldItem_BunnyPlushie
+	{
+		mesh = WorldItems/WorldItem_PlushieBunny,
+		texture = clothes/Items/BunnyPlushie,
+		scale = 0.5,
+	}
+	
+	model AuthenticZ_ToyBearSmall
+	{
+		mesh = WorldItems/ToyBear,
+		texture = WorldItems/ToyBear,
+		scale = 0.3,
+	}
+
+	model WorldItem_Carabiner
+	{
+		mesh = WorldItems/WorldItem_AuthenticZ_Carabiner,
+		texture = clothes/Items/CarabinerClip,
+		scale = 0.6,
+	}
+	
+	model PokeballPlushie
+	{
+		mesh = PlushiePokeball,
+		texture = clothes/Items/PokeballPlushie,
+		scale = 0.4,
+	}
+	
+	model WorldItem_PokeballPlushie
+	{
+		mesh = WorldItems/WorldItem_PlushiePokeball,
+		texture = clothes/Items/PokeballPlushie,
+				scale = 0.4,
+	}
+	
+	model PenguinPlushie
+	{
+		mesh = PlushiePenguin,
+		texture = clothes/Items/PenguinPlushie,	
+		scale = 0.4,		
+	}
+	
+	model WorldItem_PenguinPlushie
+	{
+		mesh = WorldItems/WorldItem_PlushiePenguin,
+		texture = clothes/Items/PenguinPlushie,
+		scale = 0.5,
+	}
+	
+	model SheepPlushie
+	{
+		mesh = PlushieSheep,
+		texture = clothes/Items/SheepPlushie,	
+		scale = 0.5,		
+	}
+	
+	model WorldItem_SheepPlushie
+	{
+		mesh = WorldItems/WorldItem_PlushieSheep,
+		texture = clothes/Items/SheepPlushie,
+		scale = 0.5,
+	}
+	
+	model SlimerPlushie
+	{
+		mesh = PlushieSlimer,
+		texture = clothes/Items/Slimerskin,	
+		scale = 0.5,		
+	}
+	
+	model WorldItem_SlimerPlushie
+	{
+		mesh = WorldItems/WorldItem_PlushieSlimer,
+		texture = clothes/Items/Slimerskin,
+		scale = 0.5,
+	}
+	
+	model DarbyPlushie
+	{
+		mesh = DarbyPlushie,
+		texture = clothes/Items/DarbySkin,	
+		scale = 0.5,		
+	}
+	
+	model WorldItem_DarbyPlushie
+	{
+		mesh =  WorldItems/WorldItem_DarbyPlushie,
+		texture = clothes/Items/DarbySkin,	
+		scale = 0.5,		
+	}
+    
+	model WorldItem_SpikesNote
+	{
+		mesh = WorldItems/WorldItem_SheetOfPaper,
+		texture = WorldItems/SpikesNote,
+		scale = 0.006,
+	}
+    
+	model WorldItem_MonmouthMapModel
+	{
+		mesh = WorldItems/WorldItem_MonmouthMap,
+		texture = WorldItems/MonmouthMap,
+		scale = 0.006,
+	}
+    
+	model WorldItem_TobinsSpiritGuideBook
+	{
+		mesh = WorldItems/WorldItem_TobinsSpiritGuide,
+		texture = WorldItems/TobinsSpirtGuide,
+		scale = 0.4,	
+	}
+   
+	model TobinsSpiritGuideBook
+	{
+		mesh = TobinsSpiritGuide,
+		texture = WorldItems/TobinsSpirtGuide,
+		scale = 0.4,	
+	}
+	
+	model Art_Hat_Ground
+	{
+		mesh = WorldItems/WorldItem_Art_HatGround,
+		texture = clothes/hat/Hat_ArttheClown,
+	}
+	
+	model LaFours_Hat_Ground
+	{
+		mesh = WorldItems/WorldItem_Hat_LaFours,
+		texture = clothes/hat/Hat_LaFours,
+	}
+	
+	model LawgiverMKII2012
+	{
+		mesh = weapons/firearm/LawgiverMKII2012,
+		texture = weapons/firearm/LawgiverMKIISkin,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model LawgiverMKII2012Clip
+	{
+    mesh = LawgiverClip,
+	texture = LawgiverMKII2012Clip,
+	}
+	
+	model NewRocks_Spike_Ground
+	{
+		mesh = WorldItems/NewRocks_Spike_Ground,	
+	}
+
+	model ToddysWig_WorldItem
+    {
+        mesh = WorldItems/ToddysWig_WorldItem,
+        texture = clothes/hat/ToddysWig,
+        scale = 1,
+    }
+}
+

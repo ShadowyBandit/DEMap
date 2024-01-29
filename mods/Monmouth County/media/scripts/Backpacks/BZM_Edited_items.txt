@@ -1,0 +1,228 @@
+module BZMClothing {
+  imports {
+      Base
+  }
+  
+	item Hat_GasMask
+	{
+	    DisplayCategory	 	= 	Accessory,
+		Type 				= 	Clothing,
+		DisplayName 		= 	Gas Mask,
+		ClothingItem		= 	Hat_GasMask,
+		BodyLocation 		= 	MaskEyes,
+		Icon 				= 	GasMask,
+		CanHaveHoles 		= 	false,
+        BloodLocation 		= 	Head,
+        Insulation 			= 	0.75,
+        WindResistance 		= 	0.60,
+        WaterResistance 	= 	1.0,
+		AttachmentType  	= 	GasMask,		
+		StaticModel 		= 	GasMaskNotWorn,
+		Tags 				= 	GasMask,		
+	}
+	
+	item PopBottleEmpty
+	{
+        DisplayCategory 	= 	WaterContainer,		
+		Weight				=	0.1,
+		CanStoreWater		=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Empty Pop Bottle,
+		ReplaceOnUseOn		=	WaterSource-WaterPopBottle,
+		Icon				=	Pop_empty,
+		MetalValue			= 	5,
+		WorldStaticModel 	= 	EmptyPopBottle,
+        AttachmentType  	= 	WaterBottle,
+		StaticModel 		= 	PopBottle,				
+	}	
+	
+	item WaterBottleEmpty
+	{
+        DisplayCategory 	= 	WaterContainer,		
+		Weight				=	0.1,
+		CanStoreWater		=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Empty Bottle,
+		ReplaceOnUseOn		=	WaterSource-WaterBottleFull,
+		Icon				=	WaterBottle_Empty,
+		StaticModel			= 	WaterBottle,
+		WorldStaticModel 	= 	WaterBottleEmpty,
+        AttachmentType  	= 	WaterBottle,
+		StaticModel 		= 	WaterBottleEmpty,			
+	}
+
+    item WaterBottleFull
+	{
+        DisplayCategory 	=	WaterContainer,		
+		IsWaterSource		=	TRUE,
+		Weight				=	0.8,
+		CanStoreWater		=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta			=	0.1,
+		DisplayName			=	Water Bottle,
+		ReplaceOnDeplete	=	WaterBottleEmpty,
+		ReplaceOnUseOn		=	WaterSource-WaterBottleFull,
+		Icon				=	WaterBottle_Full,
+		StaticModel 		= 	WaterBottle,
+		WorldStaticModel 	= 	WaterBottleFull,
+		CustomEatSound 		= 	DrinkingFromBottlePlastic,
+        AttachmentType  	= 	WaterBottle,		
+	}
+	
+	item WaterPopBottle
+	{
+        DisplayCategory 	= 	WaterContainer,		
+		IsWaterSource		=	TRUE,
+		Weight				=	0.8,
+		CanStoreWater		=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta			=	0.1,
+		DisplayName			=	Water Bottle,
+		ReplaceOnDeplete	=	PopBottleEmpty,
+		ReplaceOnUseOn		=	WaterSource-WaterPopBottle,
+		Icon				=	Pop_water,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottlePlastic,
+		StaticModel 		= 	PopBottle,
+		WorldStaticModel 	= 	EmptyPopBottle,
+        AttachmentType  	= 	WaterBottle,		
+	}
+
+    item Pop
+	{
+        DisplayCategory 	= 	Food,		
+		HungerChange		=	-8,
+		Weight				=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-60,
+		DisplayName			=	Pop,
+		Icon				=	Pop,
+		CustomContextMenu	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromCan,
+        Carbohydrates 		= 	39,
+        ReplaceOnUse 		= 	PopEmpty,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	140,
+        Packaged			= 	TRUE,
+        CantBeFrozen 		= 	TRUE,
+        StaticModel 		= 	PopCanDiet,
+        EatType 			= 	popcan,
+        WorldStaticModel 	= 	PopCanDiet,
+        AttachmentType  	= 	Sodacan,		
+	}
+
+	item Pop2
+	{
+        DisplayCategory 	= 	Food,			
+		HungerChange		=	-8,
+		Weight				=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		ReplaceOnUse 		= 	Pop2Empty,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-60,
+		DisplayName			=	Pop,
+		Icon				=	Pop2,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromCan,
+        Carbohydrates 		= 	39,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	140,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 		= 	TRUE,
+        StaticModel 		= 	PopCanRed,
+        EatType 			= 	popcan,
+        WorldStaticModel 	= 	PopCanRed,
+        AttachmentType  	= 	Sodacan,			
+	}
+
+	item Pop3
+	{
+        DisplayCategory 	= 	Food,			
+		HungerChange		=	-8,
+		Weight				=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		ReplaceOnUse 		= 	Pop3Empty,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-60,
+		DisplayName			=	Pop,
+		Icon				=	Pop3,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromCan,
+        Carbohydrates 		= 	39,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	140,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 		= 	TRUE,
+        StaticModel 		= 	PopCanFizz,
+        EatType 				= 	popcan,
+        WorldStaticModel 	= 	PopCanFizz,
+        AttachmentType  	= 	Sodacan,		
+	}
+	
+	item PopBottle
+	{
+        DisplayCategory		= 	Food,			
+		HungerChange		=	-12,
+		Weight				=	0.8,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName			=	Orange Soda,
+		ReplaceOnUse		=	PopBottleEmpty,
+		Icon				=	Pop4,
+		CustomContextMenu	=	Drink,
+		CustomEatSound 		= 	DrinkingFromBottlePlastic,
+        Carbohydrates		= 	104,
+        Proteins			= 	0,
+        Lipids				= 	0,
+        Calories 			=	400,
+        Packaged 			=	TRUE,
+        CantBeFrozen 		=	TRUE,
+        StaticModel 		= 	PopBottle,
+        EatType 			=	bottle,
+        WorldStaticModel 	= 	PopBottleWorld,
+        AttachmentType  	= 	WaterBottle,			
+	}	
+
+    item GardenSaw
+    {
+        DisplayCategory 	= Tool,	
+        Weight				= 0.7,
+        Type				= Normal,
+        DisplayName			= Garden Saw,
+        Icon				= Handsaw,
+        MetalValue 			= 35,
+        StaticModel 		= GardenSaw,
+        SurvivalGear 		= TRUE,
+        Tags 				= Saw,
+		AttachmentType   	= Saw,			
+        WorldStaticModel 	= GardenSawGround,
+		OBSOLETE 			= TRUE,
+    }
+
+	item Saw
+	{
+        DisplayCategory 	= 	Tool,	
+		Weight				=	0.7,
+		Type				=	Normal,
+		DisplayName			=	Saw,
+		Icon				=	Hacksaw,
+		MetalValue 			= 	35,
+		StaticModel			=	Hacksaw,
+		SurvivalGear 		= 	TRUE,
+        Tags 				= 	Saw,
+		AttachmentType   	= 	Saw,	
+        WorldStaticModel 	= 	HacksawGround,
+	    OBSOLETE 			= 	TRUE,	
+	}
+
+}		

@@ -1,0 +1,7 @@
+name=The_Museum
+id=TheMuseumID_DE
+description=WIP Museum 
+poster=poster.png
+pack=GabeTiles
+tiledef=GabeTileDefinitions 3271
+require=tkTiles_01,require=DylansTiles,require=EN_Newburbs,require=Diederiks Tile Palooza,require=PertsPartyTiles

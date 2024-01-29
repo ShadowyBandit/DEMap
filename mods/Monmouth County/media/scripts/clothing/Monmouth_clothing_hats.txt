@@ -1,0 +1,208 @@
+module MonmouthClothing
+{
+    item Hat_VisorMoobys
+    {
+        DisplayCategory			=	Accessory,
+        Type					=	Clothing,
+        DisplayName				=	Mooby's Visor,
+        ClothingItem			=	Hat_VisorMoobys,
+        BodyLocation			=	Hat,
+        Icon					=	MoobysVisor_Icon,
+        CanHaveHoles			=	false,
+        ChanceToFall			=	60,
+        Weight					=	0.3,
+    }
+	item Hat_BaseballCapFraz_Reverse
+    {
+        DisplayCategory			=	Accessory,
+        Type					=	Clothing,
+        DisplayName				=	Fraz's Cap,
+        ClothingItem			=	Hat_BaseballCapFraz_Reverse,
+        BodyLocation			=	Hat,
+        Icon					=	FrazsCap,
+        CanHaveHoles			=	false,
+        ChanceToFall			=	60,
+        Weight					=	0.3,
+    }
+	item Hat_Silent_Bob
+    {
+        DisplayCategory			=	Accessory,
+        Type					=	Clothing,
+        DisplayName				=	Silent Bob's Cap,
+        ClothingItem			=	Hat_Silent_Bob,
+        BodyLocation			=	Hat,
+        Icon					=	SilentBobsCap,
+        CanHaveHoles			=	false,
+        ChanceToFall			=	60,
+        Weight					=	0.3,
+    }
+	item Hat_JaysBeanie
+    {
+        DisplayCategory			=	Accessory,
+        Type					=	Clothing,
+        DisplayName				=	Jay's Beanie,
+        ClothingItem			=	Hat_JaysBeanie,
+        BodyLocation			=	Hat,
+        Icon					=	JaysCap_Icon,
+        CanHaveHoles			=	false,
+        ChanceToFall			=	40,
+        Weight					=	0.3,
+    }
+    item Hat_BunnyEarsAmelora
+	{
+	    DisplayCategory			=	Accessory,
+		Type					=	Clothing,
+		DisplayName				=	Bunny Ears,
+		ClothingItem			=	Hat_BunnyEarsAmelora,
+		BodyLocation			=	Hat,
+		Icon					=	RabbitearsAmelora,
+		CanHaveHoles			=	false,
+		BloodLocation			=	Head,
+		ChanceToFall			=	40,
+		WorldStaticModel		=	BunnyEarsWhite_Ground,
+	}
+    item Helmet_Judge
+	{
+	    DisplayCategory			=	Accessory,
+		Type					=	Clothing,
+		DisplayName				=	Judge's Helmet,
+		ClothingItem			=	Helmet_Judge,
+		BodyLocation			=	Hat,
+		Icon					=	Helmet_Judge,
+		CanHaveHoles			=	false,
+		BloodLocation			=	Head,
+		BiteDefense				=	100,
+		ScratchDefense			=	100,
+		ChanceToFall			=	5,
+		Insulation				=	0.25,
+		WaterResistance			=	0.2,
+		WorldStaticModel		=	Judge_Helmet_Ground,
+	}
+    item Mask_AmeloraBunny
+	{
+	    DisplayCategory			=	Accessory,
+		Type					=	Clothing,
+		DisplayName				=	Bunny Mask,
+		ClothingItem			=	Mask_AmeloraBunny,
+		BodyLocation			=	Hat,
+		Icon					=	Mask_AmeloraBunny,
+		CanHaveHoles			=	false,
+		BloodLocation			=	Head,
+		BiteDefense				=	40,
+		ScratchDefense			=	40,
+		ChanceToFall			=	25,
+		Insulation				=	0.25,
+		WaterResistance			=	0.2,
+		WorldStaticModel		=	Mask_AmeloraBunny_Ground,
+	}
+    item Mask_Mooby
+	{
+	    DisplayCategory			=	Accessory,
+		Type					=	Clothing,
+		DisplayName				=	Mooby Head,
+		ClothingItem			=	Mask_Mooby,
+		BodyLocation			=	Hat,
+		Icon					=	Mask_Mooby,
+		CanHaveHoles			=	false,
+		BloodLocation			=	Head,
+		BiteDefense				=	100,
+		ScratchDefense			=	100,
+		ChanceToFall			=	5,
+		Insulation				=	0.45,
+		WaterResistance			=	0.5,
+		WorldStaticModel		=	Mask_Mooby_Ground,
+	}
+
+    item BZM_Art_Hat
+	{
+	    DisplayCategory			=	Accessory,
+		Type					=	Clothing,
+		DisplayName				=	Art's Hat,
+		ClothingItem			=	Hat_ArtClown,
+		BodyLocation			=	Hat,
+		Icon					=	ArtTC_Hat,
+		CanHaveHoles			=	false,
+		BloodLocation			=	Head,
+		BiteDefense				=	0,
+		ScratchDefense			=	0,
+		ChanceToFall			=	1,
+		Insulation				=	0,
+		WaterResistance			=	0,
+		WorldStaticModel		=	Art_Hat_Ground,
+	}
+    item Hat_LaFours
+	{
+	    DisplayCategory			=	Accessory,
+		Type					=	Clothing,
+		DisplayName				=	LaFours' Hat,
+		ClothingItem			=	Hat_LaFours,
+		BodyLocation			=	Hat,
+		Icon					=	HatLaFours,
+		Tooltip					=	Tooltip_LaFours_Hat,
+		CanHaveHoles			=	false,
+		BloodLocation			=	Head,
+		BiteDefense				=	100,
+		ScratchDefense			=	100,
+		ChanceToFall			=	20,
+		Insulation				=	0.25,
+		WaterResistance			=	0.2,
+		WorldStaticModel		=	LaFours_Hat_Ground,
+	}
+	item Hat_ICUCap
+    {
+        DisplayCategory			=	Accessory,
+        Type					=	Clothing,
+        DisplayName				=	ICU Blackout cap,
+        ClothingItem			=	Hat_ICUCap,
+        BodyLocation			=	Hat,
+        Icon					=	ICUCap_Icon,
+        CanHaveHoles			=	false,
+        ChanceToFall			=	40,
+        Weight					=	0.3,
+    }
+	item Hat_Randal
+    {
+        DisplayCategory			=	Accessory,
+        Type					=	Clothing,
+        DisplayName				=	Randal's Cap,
+        ClothingItem			=	Hat_Randal,
+        BodyLocation			=	Hat,
+        Icon					=	RandalsCap,
+        CanHaveHoles			=	false,
+        ChanceToFall			=	60,
+        Weight					=	0.3,
+    }
+	item Mask_KinkyK
+	{
+	    DisplayCategory			= Accessory,
+		Type					= Clothing,
+		DisplayName				= Sexy Stud's Mask,
+		ClothingItem			= Mask_KinkyK,
+		BodyLocation			= MaskEyes,
+		Icon					= KKMask,
+		CanHaveHoles			= false,
+		BloodLocation			= Head,
+        BiteDefense				= 2,
+        ScratchDefense			= 10,
+        Insulation				= 0.05,
+        WindResistance			= 0.05,
+	}
+        item Hat_ToddysWig
+	{
+	    DisplayCategory			= Accessory,
+		Type					= Clothing,
+		DisplayName				= Toddy's Wig,
+		ClothingItem			= Hat_ToddysWig,
+		BodyLocation			= Hat,
+		Icon					= ToddysWig,
+		BloodLocation			= Head,
+		CanHaveHoles			= false,
+        BiteDefense				= 0,
+        ScratchDefense			= 0,
+        ChanceToFall			= 50,
+        Insulation				= 0.2,
+        WindResistance			= 0.2,
+        WorldStaticModel		= ToddysWig_WorldItem
+	}
+
+}

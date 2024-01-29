@@ -1,0 +1,5 @@
+name=LV International Airport
+id=SimonMDLVInternationalAirport_DE
+description=Simon_MDs LV International Airport
+poster=poster.png
+require=simonMDsTiles,DylansTiles,tkTiles_01,Diederiks Tile Palooza,melos_tiles_for_miles_pack,PertsPartyTiles

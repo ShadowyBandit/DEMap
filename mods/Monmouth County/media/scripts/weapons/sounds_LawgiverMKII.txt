@@ -1,0 +1,49 @@
+module BZMFirearms{
+  sound LawgiverShoot {
+    category = Item,
+    clip {
+      file = media/sound/LawgiverMKIIShoot.ogg,
+      distanceMax = 40,
+    }
+  }
+
+  sound LawgiverJam {
+    category = Item,
+    clip {
+      file = media/sound/LawgiverMKIIJam.ogg,
+      distanceMax = 1,
+    }
+  }
+
+  sound LawgiverRack {
+    category = Item,
+    clip {
+      file = media/sound/LawgiverMKIIRack.ogg,
+      distanceMax = 1,
+    }
+  }
+
+  sound LawgiverInsertAmmoStart {
+    category = Item,
+    clip {
+      file = media/sound/LawgiverMKIIInsertClip.ogg,
+      distanceMax = 1,
+    }
+  }
+
+  sound LawgiverInsertAmmoStop {
+    category = Item,
+    clip {
+      file = media/sound/LawgiverMKIIInsertClipClack.ogg,
+      distanceMax = 1,
+    }
+  }
+
+  sound LawgiverEjectAmmoStart {
+    category = Item,
+    clip {
+      file = media/sound/LawgiverMKIIEjectClip.ogg,
+      distanceMax = 1,
+    }
+  }
+}

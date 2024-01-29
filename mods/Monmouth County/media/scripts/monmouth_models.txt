@@ -1,0 +1,163 @@
+module Base
+{
+/*
+	// The name XXX is used in these places:
+	//   items.txt    weaponSprite= or StaticModel=
+	//   recipes.txt  Prop1: or Prop2:
+	//   BaseTimedAction:setOverrideHandModels(XXX, XXX)
+	model XXX
+	{
+		// Path is relative to "media/models_x/".  Extension is optional.
+		mesh = Weapons/1Handed/SaucePan,
+
+		// Path is relative to "media/textures/".  Extension is optional.
+		texture = Weapons/1Handed/SaucePan,
+
+		// Default is "basicEffect".
+		shader = basicEffect,
+
+		// Default is TRUE.
+		static = TRUE,
+	}
+*/
+	
+	
+	model Hammer_Reinforced
+	{
+		mesh = weapons/1handed/Hammer_Reinforced,
+		texture = weapons/1handed/Hammer_Reinforced,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model KukriMacheteSpike
+	{
+		mesh = Weapons/1handed/KukriMacheteSpike,
+		texture = weapons/1handed/KukriMacheteSpike,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+
+	model PickAxePink
+	{
+		mesh = Weapons/2Handed/PickAxePink,
+		texture = weapons/2handed/PickAxePink,
+		attachment world
+		{
+			offset = 0.0000 0.2400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+	model SpearGungnir
+	{
+		mesh = Weapons/2Handed/SpearGungnir,
+		texture = weapons/2handed/SpearGungnir,
+		attachment world
+		{
+			offset = 0.0000 0.2900 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+	model CrowbarScorpion
+	{
+		mesh = Weapons/2Handed/CrowbarScorpion,
+		texture = weapons/2handed/CrowbarScorpion,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model AxeBZMCrafted
+	{
+		mesh = Weapons/2Handed/AxeBZMCrafted,
+		texture = weapons/2handed/AxeBZMCrafted,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model CrowbarSki
+	{
+		mesh = Weapons/2Handed/CrowbarSki,
+		texture = weapons/2handed/CrowbarSki,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+	model Nak_Guitar_Acoustic
+	{
+		mesh = Weapons/2Handed/Guitar_Acoustic,
+		texture = weapons/2handed/Nak_Guitar_Acoustic,
+		attachment world
+		{
+			offset = 0.0000 0.2800 -0.0650,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	
+	model WorldItem_WristWatch_Kitten
+	{
+		mesh = WorldItems/WorldItem_WristWatch_Kitten,
+		texture = WristWatchSquare_Kitten,
+	}
+	
+	model BaCI1Open
+	{
+		mesh = WorldItems/BZM_Magazine,
+		texture = WorldItems/BaCN1_Open,
+		scale = 0.4,
+	}
+	
+	model BaCI1Ground
+    {
+        mesh = WorldItems/BZM_Magazine_Ground,
+        texture = WorldItems/BaCN1,
+		scale = 0.4,
+    }
+	
+	model BaCI2Open
+	{
+		mesh = WorldItems/BZM_Magazine,
+		texture = WorldItems/BaCN2_Open,
+		scale = 0.4,
+	}
+	
+	model BaCI2Ground
+    {
+        mesh = WorldItems/BZM_Magazine_Ground,
+        texture = WorldItems/BaCN2,
+        scale = 0.4,
+    }
+	
+	model BaCI3Open
+	{
+		mesh = WorldItems/BZM_Magazine,
+		texture = WorldItems/BaCN3_Open,
+		scale = 0.4,
+	}
+	
+	model BaCI3Ground
+    {
+        mesh = WorldItems/BZM_Magazine_Ground,
+        texture = WorldItems/BaCN3,
+        scale = 0.4,
+    }	
+	
+
+	
+
+}

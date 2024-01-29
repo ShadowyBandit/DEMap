@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>6bc9423d-83b4-4f91-881d-5374b299b6f8</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_DecalGroup>TShirtSpikesPopDecalGroup</m_DecalGroup>
+	<m_BaseTextures>BZM_Clothing_TShirtYellow</m_BaseTextures>
+</clothingItem>

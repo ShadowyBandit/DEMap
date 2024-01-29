@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+<!--Male-->
+	<male>
+		<name>M_ShortMullet</name>
+		<model>skinned/hair/M_Hair_BZM_Short_Mullet</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_ShortMullet" />
+		<alternate category="Group01" style="M_ShortMullet" />
+		<alternate category="Group02" style="Hat" />
+		<alternate category="Group04" style="Hat" />
+		<level>2</level>
+	</male>
+	
+	<male><name>M_Elias</name>
+		<model>skinned\hair\M_Hair_BZM_Elias</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Hair_BZM_Elias" />
+		<alternate category="Group01" style="M_Hair_BZM_Elias_S1" />
+		<alternate category="Group02" style="M_Hair_BZM_Elias_S2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Hair_BZM_Elias_S4" />
+		<alternate category="Group05" style="M_Hair_BZM_Elias" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>	
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+	</male>
+	
+	<male>
+		<name>M_Hair_BZM_Elias_S1</name>
+		<model>skinned/hair/M_Hair_BZM_Elias_S1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Hair_BZM_Elias_S2</name>
+		<model>skinned/hair/M_Hair_BZM_Elias_S2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Hair_BZM_Elias_S4</name>
+		<model>skinned/hair/M_Hair_BZM_Elias_S4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+
+</hairStyles>

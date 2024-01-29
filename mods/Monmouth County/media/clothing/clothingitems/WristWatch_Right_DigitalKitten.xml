@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\M_WristWatch_Kitten_Right_.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\F_WristWatch_Square_Right.X</m_FemaleModel>
+	<m_GUID>604cb36f-35d0-4220-9842-12f5974b177a</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_R_Forearm</m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>WristWatchSquare_Kitten</textureChoices>
+</clothingItem>

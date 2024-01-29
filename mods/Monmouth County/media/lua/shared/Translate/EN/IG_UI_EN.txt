@@ -1,0 +1,24 @@
+IG_UI_EN = { --------------------------?
+
+    IGUI_Beard_Spike's = "Spike's",
+	IGUI_Beard_TheNak = "The Nak",
+	IGUI_Hair_M_ShortMullet = "Mullet (Short)"
+	IGUI_Hair_M_Elias = "The Elias"
+	IGUI_Hair_M_Hair_BZM_Elias_S1 = "The Elias"
+	IGUI_Hair_M_Hair_BZM_Elias_S2 = "The Elias"
+	IGUI_Hair_M_Hair_BZM_Elias_S4 = "The Elias"
+
+
+	IGUI_HotbarAttachment_AlicepackSecondary = "Alicepack Secondary Bag",
+	IGUI_HotbarAttachment_AlicepackItemSlot1 = "Alicepack Item Slot 1",	
+	IGUI_HotbarAttachment_AlicepackItemSlot2 = "Alicepack Item Slot 2",
+	IGUI_HotbarAttachment_AlicepackItemSlot3 = "Alicepack Item Slot 3",	
+	IGUI_HotbarAttachment_AlicepackItemSlot4 = "Alicepack Item Slot 4",
+	IGUI_HotbarAttachment_AlicepackItemSlot5 = "Alicepack Item Slot 5",	,	
+	IGUI_HotbarAttachment_AlicepackFlashlight = "Alicepack Flashlight Slot",	
+	IGUI_HotbarAttachment_AlicepackUmbrellaRight = "Alicepack Utility Slot",
+	IGUI_HotbarAttachment_AlicepackPlushie = "Alicepack Plushie Slot",	
+	IGUI_HotbarAttachment_AlicepackBottleRight = "Alicepack Bottle Slot",
+	IGUI_HotbarAttachment_AlicepackBottleLeft = "Alicepack Bottle Slot",	
+
+}

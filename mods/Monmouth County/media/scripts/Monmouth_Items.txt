@@ -1,0 +1,49 @@
+module MonmouthItems
+{
+
+    item BaCI1_Comic
+    {
+        DisplayCategory			=	Literature,
+        Weight					=	0.1,
+        Type					=	Literature,
+        DisplayName				=	Bluntman and Chronic #1,
+		UnhappyChange			=	-20,
+        StressChange			=	-20,
+        BoredomChange			=	-30,
+        Icon					=	BaCN1Icon,
+        Tooltip					=	Tooltip_item_BaCI1,
+        StaticModel				=	BaCI1Open,
+        WorldStaticModel		=	BaCI1Ground,
+    }
+
+    item BaCI2_Comic
+    {
+        DisplayCategory			=	Literature,
+        Weight					=	0.1,
+        Type					=	Literature,
+        DisplayName				=	Bluntman and Chronic #2,
+		UnhappyChange			=	-20,
+        StressChange			=	-20,
+        BoredomChange			=	-30,
+        Icon					=	BaCN2Icon,
+        Tooltip					=	Tooltip_item_BaCI2,
+        StaticModel				=	BaCI2Open,
+        WorldStaticModel		=	BaCI2Ground,
+    }
+
+    item BaCI3_Comic
+    {
+        DisplayCategory			=	Literature,
+        Weight					=	0.1,
+        Type					=	Literature,
+        DisplayName				=	Bluntman and Chronic #3,
+		UnhappyChange			=	-20,
+        StressChange			=	-20,
+        BoredomChange			=	-30,
+        Icon					=	BaCN3Icon,
+        Tooltip					=	Tooltip_item_BaCI3,
+        StaticModel				=	BaCI3Open,
+        WorldStaticModel		=	BaCI3Ground,
+    }
+
+}

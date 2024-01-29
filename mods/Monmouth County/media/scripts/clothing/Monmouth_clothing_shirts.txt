@@ -1,0 +1,229 @@
+module MonmouthClothing
+{
+    item Moobys_Shirt
+	{
+	    DisplayCategory			= Clothing,
+		Type					= Clothing,
+		DisplayName				= Mooby's Uniform,
+		ClothingItem			= Moobys_Shirt,
+		BodyLocation			= Shirt,
+		Icon					= Moobys_Uniform_Icon,
+		BloodLocation			= Shirt,
+        Insulation				= 0.25,
+        WindResistance			= 0.15,
+        FabricType				= Cotton,
+        WorldStaticModel		= Shirt_Ground,
+	}
+	item Tshirt_Black_Fraz
+    {
+        DisplayCategory			= Clothing,
+        Type					= Clothing,
+        DisplayName				= Fraz T-Shirt,
+        ClothingItem			= Tshirt_Black_Fraz,
+        BodyLocation			= Tshirt,
+        Icon					= TshirtFraz,
+        BloodLocation			= Shirt,
+        Insulation				= 0.5,
+        WindResistance			= 0.30,
+        FabricType				= Cotton,
+        WorldStaticModel		= TShirt_Ground,
+    }
+	item Tshirt_Black_SilentBob
+    {
+        DisplayCategory			= Clothing,
+        Type					= Clothing,
+        DisplayName				= Silent Bob's Tshirt,
+        ClothingItem			= Tshirt_Black_SilentBob,
+        BodyLocation			= Tshirt,
+        Icon					= SilentBobTshirt,
+        BloodLocation			= Shirt,
+        Insulation				= 0.5,
+        WindResistance			= 0.30,
+        FabricType				= Cotton,
+        WorldStaticModel		= TShirt_Ground,
+    }
+	item Tshirt_Berserker	
+    {
+        DisplayCategory 		= Clothing,
+        Type 					= Clothing,
+        DisplayName 			= Berserker T-Shirt,
+        ClothingItem 			= Tshirt_Berserker,
+        BodyLocation 			= Tshirt,
+        Icon 					= BerserkerT_Icon,
+		Tooltip 		 		= Tooltip_Berserker,
+        BloodLocation 			= Shirt,
+        Insulation 				= 0.5,
+        WindResistance 			= 0.30,
+        FabricType 				= Cotton,
+        WorldStaticModel 		= TShirt_Ground,
+    }
+    item Shirt_LaFours
+    {
+        DisplayCategory			= Clothing,
+        Type					= Clothing,
+        DisplayName				= LaFours Shirt,
+        ClothingItem			= Shirt_LaFours,
+        BodyLocation			= Tshirt,
+        Icon					= ShirtLaFours,
+		Tooltip					= Tooltip_LaFours_Shirt,
+		BloodLocation			= Shirt,
+        Insulation				= 0.2,
+        WindResistance			= 0.15,
+        FabricType				= Cotton,
+        WorldStaticModel		= TShirt_Ground,
+    }
+	item Tshirt_JennyShakes	
+    {
+        DisplayCategory 		= Clothing,
+        Type 					= Clothing,
+        DisplayName 			= JennyShakes T-Shirt,
+        ClothingItem 			= Tshirt_JennyShakes,
+        BodyLocation 			= Tshirt,
+        Icon 					= TshirtJennyShakes,
+        BloodLocation 			= Shirt,
+        Insulation 				= 0.5,
+        WindResistance 			= 0.30,
+        FabricType 				= Cotton,
+        WorldStaticModel 		= TShirt_Ground,
+    }
+	item TShirt_ICUJersey
+    {
+        DisplayCategory 		= Clothing,
+        Type 					= Clothing,
+        DisplayName 			= IceCream Uploads Jersey,
+        ClothingItem 			= TShirt_ICUJersey,
+        BodyLocation 			= Tshirt,
+        Icon 					= ICUJersey_Icon,
+        BloodLocation 			= Shirt,
+        Insulation 				= 0.5,
+        WindResistance 			= 0.15,
+        FabricType 				= Cotton,
+        WorldStaticModel 		= TShirt_Ground,
+    }
+	item TShirt_YebMan
+    {
+        DisplayCategory 		= Clothing,
+        Type 					= Clothing,
+        DisplayName 			= Call a Heli T-Shirt,
+        ClothingItem 			= TShirt_YebMan,
+        BodyLocation 			= Tshirt,
+        Icon 					= YebShirt_Icon,
+        BloodLocation 			= Shirt,
+        Insulation 				= 0.5,
+        WindResistance 			= 0.15,
+        FabricType 				= Cotton,
+        WorldStaticModel 		= TShirt_Ground,
+    }
+	item Tshirt_NakAttack
+    {
+        DisplayCategory 		= Clothing,
+        Type 					= Clothing,
+        DisplayName 			= Nak Attack T-Shirt,
+        ClothingItem 			= Tshirt_NakAttack,
+        BodyLocation 			= Tshirt,
+        Icon 					= NakShirt_Icon,
+        BloodLocation 			= Shirt,
+        Insulation 				= 0.5,
+        WindResistance 			= 0.15,
+        FabricType 				= Cotton,
+        WorldStaticModel 		= TShirt_Ground,
+    }
+    item QuickStop_Shirt
+	{
+	    DisplayCategory			= Clothing,
+		Type					= Clothing,
+		DisplayName				= QuickSTOP Uniform,
+		ClothingItem			= QuickStop_Shirt,
+		BodyLocation			= Shirt,
+		Icon					= QuickStop_Uniform_Icon,
+		BloodLocation			= Shirt,
+        Insulation				= 0.25,
+        WindResistance			= 0.15,
+        FabricType				= Cotton,
+        WorldStaticModel		= Shirt_Ground,
+	}
+    item Tshirt_Dante
+    {
+        DisplayCategory			= Clothing,
+        Type					= Clothing,
+        DisplayName				= Dante's Long Sleeve T-Shirt,
+        ClothingItem			= Tshirt_Dante,
+        BodyLocation			= Tshirt,
+        Icon					= Dantes_Shirt,
+        BloodLocation			= ShirtLongSleeves,
+        Insulation				= 0.3,
+        WindResistance			= 0.15,
+        FabricType				= Cotton,
+        WorldStaticModel		= TShirt_Ground,
+    }
+	item Tshirt_Unknown
+    {
+        DisplayCategory			= Clothing,
+        Type					= Clothing,
+        DisplayName				= Unknown's Tshirt,
+        ClothingItem			= Tshirt_Unknown,
+        BodyLocation			= Tshirt,
+        Icon					= UnknownTShirtIcon,
+        BloodLocation			= Shirt,
+        Insulation				= 0.5,
+        WindResistance			= 0.30,
+        FabricType				= Cotton,
+        WorldStaticModel		= TShirt_Ground,
+    }
+	item Tshirt_MASK
+    {
+        DisplayCategory			= Clothing,
+        Type					= Clothing,
+        DisplayName				= M.A.S.K. T-Shirt,
+        ClothingItem			= Tshirt_Black_MASK,
+        BodyLocation			= Tshirt,
+        Icon					= MASKTShirtIcon,
+        BloodLocation			= Shirt,
+        Insulation				= 0.5,
+        WindResistance			= 0.30,
+        FabricType				= Cotton,
+        WorldStaticModel		= TShirt_Ground,
+    }
+	item Tshirt_SpikesPop
+    {
+        DisplayCategory			= Clothing,
+        Type					= Clothing,
+        DisplayName				= Spike's PoP T-Shirt,
+        ClothingItem			= Tshirt_SpikesPop,
+        BodyLocation			= Tshirt,
+        Icon					=	TshirtSpikesPop,
+        BloodLocation			= Shirt,
+        Insulation				= 0.2,
+        WindResistance			= 0.05,
+        FabricType				= Cotton,
+        WorldStaticModel		= Shirt_Ground,
+    }
+	
+	item Tshirt_Fence_Toddy
+    {
+        DisplayCategory			= Clothing,
+        Type					= Clothing,
+        DisplayName				= Toddy's Only Fences T-Shirt,
+        ClothingItem			= Tshirt_Fence_Toddy,
+        BodyLocation			= Tshirt,
+        Icon					= TshirtToddyOF,
+        BloodLocation			= Shirt,
+        Insulation				= 0.2,
+        WindResistance			= 0.05,
+        FabricType				= Cotton,
+        WorldStaticModel		= Shirt_Ground,
+    }
+	item Shirt_CropTopAmelora
+    {
+        DisplayCategory			= Clothing,
+        Type					= Clothing,
+        DisplayName				= Amelora's Crop Top,
+        ClothingItem			= Shirt_CropTopAmelora,
+        BodyLocation			= Tshirt,
+        Icon					= CropTopAmelora,
+        BloodLocation			= Shirt,
+        FabricType				= Cotton,
+        WorldStaticModel		= CropTop_Ground,
+    }
+}
+

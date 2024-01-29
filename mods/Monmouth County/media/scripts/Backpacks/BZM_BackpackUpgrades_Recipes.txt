@@ -1,0 +1,882 @@
+module BZMClothing{
+  imports {
+      Base
+  }
+	
+    item Bag_ALICEpack_Spike_Tier_1
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Spike's Alice Pack - Tier 1,
+        ClothingItem 			= 	Bag_ALICEpack_Spike_Tier_1,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	86,
+        Weight					=	2,
+        Capacity				=	28,
+        Icon					=	AliceBag_Spike,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight,			
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Spike_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Spike_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+	
+    item Bag_ALICEpack_Spike_Tier_2
+    {
+        DisplayCategory = Bag,	
+        Type 					= 	Container,
+        DisplayName 			= 	Spike's Alice Pack - Tier 2,
+        ClothingItem 			= 	Bag_ALICEpack_Spike_Tier_2,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	29,
+        Icon					=	AliceBag_Spike,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackSawRight,				
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Spike_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Spike_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }	
+ 
+    item Bag_ALICEpack_Spike_Tier_3
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Spike's Alice Pack - Tier 3,
+        ClothingItem 			= 	Bag_ALICEpack_Spike_Tier_3,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	90,
+        Weight					=	2,
+        Capacity				=	30,
+        Icon					=	AliceBag_Spike,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackFlashlight;AlicepackSawRight,					
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Spike_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Spike_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+
+	
+recipe Upgrade Spike's Alicepack
+  	{
+	   Bag_ALICEpack_Spike,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Spike_Tier_1,
+	   OnGiveXP:Recipe.OnGiveXP.Tailoring20,   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
+  	}
+	
+recipe Upgrade Spike's Alicepack
+  	{
+	   Bag_ALICEpack_Spike_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Spike_Tier_2,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
+  	}	
+
+recipe Upgrade Spike's Alicepack
+  	{
+	   Bag_ALICEpack_Spike_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Spike_Tier_3,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3,
+  	}
+	
+	    item Bag_ALICEpack_Black_Tier_1
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Black Alice Pack - Tier 1,
+        ClothingItem 			= 	Bag_ALICEpack_Black_Tier_1,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	86,
+        Weight					=	2,
+        Capacity				=	28,
+        Icon					=	AliceBag_Black,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight,			
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Black_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Black_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+	
+    item Bag_ALICEpack_Black_Tier_2
+    {
+        DisplayCategory = Bag,	
+        Type 					= 	Container,
+        DisplayName 			= 	Black Alice Pack - Tier 2,
+        ClothingItem 			= 	Bag_ALICEpack_Black_Tier_2,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	29,
+        Icon					=	AliceBag_Black,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackSawRight,				
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Black_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Black_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }	
+ 
+    item Bag_ALICEpack_Black_Tier_3
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Black Alice Pack - Tier 3,
+        ClothingItem 			= 	Bag_ALICEpack_Black_Tier_3,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	90,
+        Weight					=	2,
+        Capacity				=	30,
+        Icon					=	AliceBag_Black,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackFlashlight;AlicepackSawRight,					
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Black_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Black_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+
+	
+recipe Upgrade Black Alicepack
+  	{
+	    Bag_ALICEpack_Black,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+        Thread=3,
+	    LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Black_Tier_1,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
+  	}
+	
+recipe Upgrade Black Alicepack
+  	{
+	   Bag_ALICEpack_Black_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Black_Tier_2,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
+  	}	
+
+recipe Upgrade Black Alicepack
+  	{
+	   Bag_ALICEpack_Black_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Black_Tier_3,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3,
+  	}
+	
+	    item Bag_ALICEpack_GaPDC_Tier_1
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Digi Camo GaP Alice Pack - Tier 1,
+        ClothingItem 			= 	Bag_ALICEpack_GaPDC_Tier_1,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	86,
+        Weight					=	2,
+        Capacity				=	28,
+        Icon					=	AliceBag_GaP,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight,			
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_GaPDC_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_GaPDC_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+	
+    item Bag_ALICEpack_GaPDC_Tier_2
+    {
+        DisplayCategory = Bag,	
+        Type 					= 	Container,
+        DisplayName 			= 	Digi Camo GaP Alice Pack - Tier 2,
+        ClothingItem 			= 	Bag_ALICEpack_GaPDC_Tier_2,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	29,
+        Icon					=	AliceBag_GaP,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackSawRight,				
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_GaPDC_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_GaPDC_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }	
+ 
+    item Bag_ALICEpack_GaPDC_Tier_3
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Digi Camo GaP Alice Pack - Tier 3,
+        ClothingItem 			= 	Bag_ALICEpack_GaPDC_Tier_3,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	90,
+        Weight					=	2,
+        Capacity				=	30,
+        Icon					=	AliceBag_GaP,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackFlashlight;AlicepackSawRight,					
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_GaPDC_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_GaPDC_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+
+	
+recipe Upgrade Digi Camo GaP AlicePack
+  	{
+	   Bag_ALICEpack_GaPDC,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_GaPDC_Tier_1,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
+  	}
+	
+recipe Upgrade Digi Camo GaP AlicePack
+  	{
+	   Bag_ALICEpack_GaPDC_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_GaPDC_Tier_2,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
+  	}	
+
+recipe Upgrade Digi Camo GaP AlicePack
+  	{
+	   Bag_ALICEpack_GaPDC_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_GaPDC_Tier_3 ,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3,
+  	}
+	
+	    item Bag_ALICEpack_Olive_Tier_1
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Olive Alice Pack - Tier 1,
+        ClothingItem 			= 	Bag_ALICEpack_Olive_Tier_1,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	86,
+        Weight					=	2,
+        Capacity				=	28,
+        Icon					=	AliceBag_Olive,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight,			
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Olive_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Olive_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+	
+    item Bag_ALICEpack_Olive_Tier_2
+    {
+        DisplayCategory = Bag,	
+        Type 					= 	Container,
+        DisplayName 			= 	Olive Alice Pack - Tier 2,
+        ClothingItem 			= 	Bag_ALICEpack_Olive_Tier_2,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	29,
+        Icon					=	AliceBag_Olive,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackSawRight,				
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Olive_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Olive_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }	
+ 
+    item Bag_ALICEpack_Olive_Tier_3
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Olive Alice Pack - Tier 3,
+        ClothingItem 			= 	Bag_ALICEpack_Olive_Tier_3,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	90,
+        Weight					=	2,
+        Capacity				=	30,
+        Icon					=	AliceBag_Olive,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackFlashlight;AlicepackSawRight,					
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Olive_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Olive_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+
+	
+recipe Upgrade Olive Alicepack
+  	{
+	   Bag_ALICEpack_Olive,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Olive_Tier_1,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
+  	}
+	
+recipe Upgrade Olive Alicepack
+  	{
+	   Bag_ALICEpack_Olive_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Olive_Tier_2,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
+  	}	
+
+recipe Upgrade Olive Alicepack
+  	{
+	   Bag_ALICEpack_Olive_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Olive_Tier_3,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3,
+  	}
+	
+	    item Bag_ALICEpack_PinkSkyBlue_Tier_1
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Pink and Blue Alice Pack - Tier 1,
+        ClothingItem 			= 	Bag_ALICEpack_PinkSkyBlue_Tier_1,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	86,
+        Weight					=	2,
+        Capacity				=	28,
+        Icon					=	AliceBag_PaB,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight,			
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_PinkSkyBlue_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_PinkSkyBlue_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+	
+    item Bag_ALICEpack_PinkSkyBlue_Tier_2
+    {
+        DisplayCategory = Bag,	
+        Type 					= 	Container,
+        DisplayName 			= 	Pink and Blue Alice Pack - Tier 2,
+        ClothingItem 			= 	Bag_ALICEpack_PinkSkyBlue_Tier_2,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	29,
+        Icon					=	AliceBag_PaB,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackSawRight,				
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_PinkSkyBlue_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_PinkSkyBlue_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }	
+ 
+    item Bag_ALICEpack_PinkSkyBlue_Tier_3
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Pink and Blue Alice Pack - Tier 3,
+        ClothingItem 			= 	Bag_ALICEpack_PinkSkyBlue_Tier_3,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	90,
+        Weight					=	2,
+        Capacity				=	30,
+        Icon					=	AliceBag_PaB,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackFlashlight;AlicepackSawRight,					
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_PinkSkyBlue_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_PinkSkyBlue_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+
+	
+recipe Upgrade Pink and Blue AlicePack
+  	{
+	   Bag_ALICEpack_PinkSkyBlue,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_PinkSkyBlue_Tier_1,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
+  	}
+	
+recipe Upgrade Pink and Blue AlicePack
+  	{
+	   Bag_ALICEpack_PinkSkyBlue_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_PinkSkyBlue_Tier_2,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
+  	}	
+
+recipe Upgrade Pink and Blue AlicePack
+  	{
+	   Bag_ALICEpack_PinkSkyBlue_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_PinkSkyBlue_Tier_3,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3,
+  	}
+	
+	    item Bag_ALICEpack_Sand_Tier_1
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Sand Alice Pack - Tier 1,
+        ClothingItem 			= 	Bag_ALICEpack_Sand_Tier_1,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	86,
+        Weight					=	2,
+        Capacity				=	28,
+        Icon					=	AliceBag_Sand,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight,			
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Sand_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Sand_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+	
+    item Bag_ALICEpack_Sand_Tier_2
+    {
+        DisplayCategory = Bag,	
+        Type 					= 	Container,
+        DisplayName 			= 	Sand Alice Pack - Tier 2,
+        ClothingItem 			= 	Bag_ALICEpack_Sand_Tier_2,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	29,
+        Icon					=	AliceBag_Sand,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackSawRight,				
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Sand_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Sand_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }	
+ 
+    item Bag_ALICEpack_Sand_Tier_3
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Sand Alice Pack - Tier 3,
+        ClothingItem 			= 	Bag_ALICEpack_Sand_Tier_3,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	90,
+        Weight					=	2,
+        Capacity				=	30,
+        Icon					=	AliceBag_Sand,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackFlashlight;AlicepackSawRight,					
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_Sand_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_Sand_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+
+	
+recipe Upgrade Sand Alicepack
+  	{
+	   Bag_ALICEpack_Sand,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Sand_Tier_1,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
+  	}
+	
+recipe Upgrade Sand Alicepack
+  	{
+	   Bag_ALICEpack_Sand_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Sand_Tier_2,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
+  	}	
+
+recipe Upgrade Sand Alicepack
+  	{
+	   Bag_ALICEpack_Sand_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_Sand_Tier_3,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3,
+  	}
+	
+	    item Bag_ALICEpack_WaGDC_Tier_1
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Digi Camo White Alice Pack - Tier 1,
+        ClothingItem 			= 	Bag_ALICEpack_WaGDC_Tier_1,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	86,
+        Weight					=	2,
+        Capacity				=	28,
+        Icon					=	AliceBag_WaG,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackBottleRight,			
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_WaGDC_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_WaGDC_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+	
+    item Bag_ALICEpack_WaGDC_Tier_2
+    {
+        DisplayCategory = Bag,	
+        Type 					= 	Container,
+        DisplayName 			= 	Digi Camo White Alice Pack - Tier 2,
+        ClothingItem 			= 	Bag_ALICEpack_WaGDC_Tier_2,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	87,
+        Weight					=	2,
+        Capacity				=	29,
+        Icon					=	AliceBag_WaG,
+        OpenSound   			=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation 			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackBottleRight;AlicepackPlushie;AlicepackSawRight,				
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_WaGDC_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_WaGDC_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }	
+ 
+    item Bag_ALICEpack_WaGDC_Tier_3
+    {
+        DisplayCategory = Bag,		
+        Type 					= 	Container,
+        DisplayName 			= 	Digi Camo White Alice Pack - Tier 3,
+        ClothingItem 			= 	Bag_ALICEpack_WaGDC_Tier_3,
+        CanBeEquipped 			= 	Back,
+        WeightReduction			=	90,
+        Weight					=	2,
+        Capacity				=	30,
+        Icon					=	AliceBag_WaG,
+        OpenSound  				=   OpenBag,
+        CloseSound   			=   CloseBag,
+        PutInSound   			=   PutItemInBag,
+        BloodLocation			= 	Bag,
+        RunSpeedModifier 		= 	0.94,
+        AttachmentReplacement 	= 	Bag,
+		AttachmentsProvided  	= 	AlicepackSecondary;AlicepackItemSlot1;AlicepackItemSlot2;AlicepackItemSlot3;AlicepackItemSlot4;AlicepackItemSlot5;AlicepackBottleRight;AlicepackBottleLeft;AlicepackPlushie;AlicepackFlashlight;AlicepackSawRight,					
+        ReplaceInSecondHand 	= 	Bag_ALICEpack_WaGDC_LHand holdingbagleft,
+        ReplaceInPrimaryHand 	= 	Bag_ALICEpack_WaGDC_RHand holdingbagright,
+        WorldStaticModel 		= 	ALICE_Pack_Ground,
+    }
+
+	
+recipe Upgrade Digi Camo White AlicePack
+  	{
+	   Bag_ALICEpack_WaGDC,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_WaGDC_Tier_1,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier1,
+  	}
+	
+recipe Upgrade Digi Camo White AlicePack
+  	{
+	   Bag_ALICEpack_WaGDC_Tier_1,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_WaGDC_Tier_2,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,
+	   SkillRequired:Tailoring=1,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier2,
+  	}	
+
+recipe Upgrade Digi Camo White AlicePack
+  	{
+	   Bag_ALICEpack_WaGDC_Tier_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   LeatherStrips/DenimStrips=3,	
+
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_ALICEpack_WaGDC_Tier_3,
+       OnGiveXP:Recipe.OnGiveXP.Tailoring20,	   
+	   Time:300.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=2,
+	   Category:Tailoring,
+	   Tooltip:Tooltip_AttachAliceBackpackTier3,
+  	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}		

@@ -1,0 +1,4 @@
+name=West Point Fire Department
+id=West Point Fire Department_DE
+description= <RGB:0.7,0.7,0.7> A well equipped fire department to assist with emergencies in West Point and the surrounding area. <LINE> <LINE> <RGB:0.9,0.9,0.9> Location: <RGB:0.7,0.7,0.7> <LINE> - Southwest of West Point <LINE> - Cell 37:23 <LINE> <LINE> <RGB:0.9,0.9,0.9> It adds the following: <RGB:0.7,0.7,0.7> <LINE> - Fire Department <LINE> - VHS Store <LINE> - Warehouse <LINE> - Forest hut  <LINE> <LINE>
+poster=preview.png

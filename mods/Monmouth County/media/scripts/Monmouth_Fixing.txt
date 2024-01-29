@@ -1,0 +1,41 @@
+module Base
+{
+	fixing Fix Hammer_Reinforced
+	{
+	   Require : Hammer_Reinforced,
+
+       Fixer : Woodglue=3; Woodwork=3,
+       Fixer : DuctTape=3,
+       Fixer : Scotchtape=4,
+	}
+
+	fixing Fix PickAxePink
+	{
+	   Require : PickAxePink,
+
+       Fixer : Woodglue=3; Woodwork=2,
+       Fixer : DuctTape=3,
+       Fixer : Glue=4,
+       Fixer : Scotchtape=5,
+	}	
+	
+	    fixing Fix KukriMacheteSpike
+    {
+       Require : KukriMacheteSpike,
+
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=3,
+    }	
+	
+	fixing Fix SpearGungnir
+	{
+	   Require : SpearGungnir,
+
+       Fixer : Woodglue=3; Woodwork=2,
+       Fixer : DuctTape=3,
+       Fixer : Glue=3,
+       Fixer : Scotchtape=5,
+	}
+	
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingDecals>
+
+	<group>
+		<name>TShirtSpikesPopDecalGroup</name>
+		<decal>TShirt_Buisness_SpikesPoPDECAL</decal>
+	</group>
+	<!-- <decal> defines each decal image that goes into the group. <name> defines the name given to be applied in the clothingitem.xml -->
+</clothingDecals>

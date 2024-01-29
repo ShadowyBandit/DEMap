@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\m_glasses_normal</m_MaleModel>
+	<m_FemaleModel>static\clothes\f_glasses_normal</m_FemaleModel>
+	<m_GUID>5e9113f4-8b85-48e4-8ff8-f063bcc4ece5</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>normalglassesblack</textureChoices>
+</clothingItem>

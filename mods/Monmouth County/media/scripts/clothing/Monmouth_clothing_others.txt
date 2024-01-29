@@ -1,0 +1,245 @@
+module MonmouthClothing {
+  imports {
+      Base
+  }
+    item Skin_White_Zed_M_DeadApe
+    {
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_White_Zed_M_DeadApe,
+		BodyLocation		= TankTop,
+    }
+	item Skin_Red_Zed_M_RedZed
+    {
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_Red_Zed_M_RedZed,
+		BodyLocation		= TankTop,
+    }
+	item Skin_Red_Zed_F_RedZed
+    {
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_Red_Zed_F_RedZed,
+		BodyLocation		= TankTop,
+    }
+	item Skin_Level1_Zed_M
+    {
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_Level1_Zed_M,
+		BodyLocation		= TankTop,
+    }
+	item Skin_M_ZomJay
+    {
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_M_ZomJay,
+		BodyLocation		= TankTop,
+    }
+	item Skin_M_ZomSilentBob
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_M_ZomSilentBob,
+		BodyLocation		= TankTop,
+    }
+	item Glove_Single_Art
+	{
+	    DisplayCategory		= Accessory,
+		Type				= Clothing,
+		DisplayName			= Single Art Glove,
+		ClothingItem		= Glove_Single_Art,
+		BodyLocation		= Hands,
+		BloodLocation		= Hands,
+		Icon				= SingleArtGlove,
+		Weight				= 0.1,
+        Insulation			= 0.25,
+        WindResistance		= 0.3,
+        WorldStaticModel	= Gloves_Ground,
+	}
+	item Skin_M_LiveBody_Spike
+    {
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_M_LiveBody_Spike,
+		BodyLocation		= TankTop,
+    }
+	item Skin_Art_the_Clown
+    {
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_Art_the_Clown,
+		BodyLocation		= TankTop,
+    }
+	item Skin_LaFours
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_LaFours,
+		BodyLocation		= TankTop,
+    }
+	item Skin_JennyShakes
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_JennyShakes,
+		BodyLocation		= TankTop,
+    }
+	item Skin_ICUBibby_Zed
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_ICUBibby_Zed,
+		BodyLocation		= TankTop,
+    }
+	item Skin_ICUGraham_Zed
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_ICUGraham_Zed,
+		BodyLocation		= TankTop,
+    }
+	item Skin_YebMan_Zed
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_YebMan_Zed,
+		BodyLocation		= TankTop,
+    }
+	item Skin_NakAttack_Zed
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_NakAttack_Zed,
+		BodyLocation		= TankTop,
+    }
+	item Skin_M_DanteHicks
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_M_DanteHicks,
+		BodyLocation		= TankTop,
+    }
+	item Skin_M_RandalGraves
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_M_RandalGraves,
+		BodyLocation		= TankTop,
+    }
+	item Skin_M_Unknown_Skin
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_M_Unknown_Skin,
+		BodyLocation		= TankTop,
+    }
+	item Skin_M_Elias_Zed
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_M_Elias_Zed,
+		BodyLocation		= TankTop,
+    }
+	item Apron_Moobys
+	{
+	    DisplayCategory		= Clothing,
+		Type				= Clothing,
+		DisplayName			= Mooby's Apron,
+		ClothingItem		= Apron_Moobys,
+		BodyLocation		= TorsoExtra,
+		BloodLocation		= Apron,
+		Icon				= ApronMoobys,
+		FabricType			= Cotton,
+		WorldStaticModel	= Apron_Ground,
+	}
+
+	item Skin_M_Zed_Spike
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_M_Zed_Spike,
+		BodyLocation		= TankTop,
+    }
+
+	item Underwear_Kinky_Kelly
+	{
+	    DisplayCategory		= Clothing,
+		Type				= Clothing,
+		DisplayName			= Sexy Studs Underwear,
+		ClothingItem		= Underwear_Kinky_Kelly,
+		BodyLocation		= Socks,
+		Icon				= Kinky_Kelly_Underwear,
+		Weight				= 0.2,
+		WorldStaticModel	= Kinky_Kelly_UGround,
+	}
+	model Kinky_Kelly_UGround
+    {
+        mesh				= WorldItems/Kinky_Kelly_Ground,
+		texture				= WorldItems/Kinky_Kelly_Floor,
+        scale				= 0.005,
+    }
+
+	item Skin_M_Kinky_Kelly
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_M_Kinky_Kelly,
+		BodyLocation		= TankTop,
+    }
+	
+    item Apron_SpikesPoP
+    {
+        DisplayCategory		= Clothing,
+        Type				= Clothing,
+        DisplayName			= Spike's Pop Server Apron,
+        ClothingItem		= Apron_SpikesPoP,
+        BodyLocation		= TorsoExtra,
+        BloodLocation		= Apron,
+        Icon				= Apron_SpikesPoP,
+        FabricType			= Cotton,
+        WorldStaticModel	= Apron_Ground,
+    }
+	
+	item Glasses_Toddy
+	{
+	    DisplayCategory		= Accessory,
+		Type				= Clothing,
+		DisplayName			= Toddy's Glasses,
+		ClothingItem		= Glasses_Toddy,
+		BodyLocation		= Eyes,
+		Icon				= WeldingGoggles,
+		Weight				= 0.1,
+		Cosmetic			= TRUE,
+		ChanceToFall		= 50,
+	}
+	
+	item Skin_Toddy_Zed
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_Toddy_Zed,
+		BodyLocation		= TankTop,
+    }
+	
+	item Glasses_Normal_Amelora
+	{
+	    DisplayCategory		= Accessory,
+		Type				= Clothing,
+		DisplayName			= Amelora's Glasses,
+		ClothingItem		= Glasses_Normal_Amelora,
+		BodyLocation		= Eyes,
+		IconsForTexture		= GlassesBlack,
+		Weight				= 0.1,
+		Cosmetic			= TRUE,
+		ChanceToFall		= 50,
+	}
+	item Skin_F_Amelora
+	{
+       DisplayCategory		= Accessory,		
+		Type				= Clothing,
+		ClothingItem		= Skin_F_Amelora,
+		BodyLocation		= TankTop,
+    }
+}

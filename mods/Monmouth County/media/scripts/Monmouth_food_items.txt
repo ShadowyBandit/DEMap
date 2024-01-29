@@ -1,0 +1,240 @@
+module MonmouthFoods
+{
+	imports
+	{
+		Base
+	}
+	
+	item ZombieBombs
+	{
+		DisplayCategory			=	Food,
+		HungerChange			=	-2,
+		UnhappyChange			=	70,
+		Weight					=	0.3,
+		Type					=	Food,
+		DisplayName				=	Zombi Bomb Sweets,
+		Icon					=	ZombiBombs,
+        Carbohydrates			=	5,
+        Proteins				=	0,
+        Lipids					=	0,
+        Calories				=	30,
+        Packaged				=	TRUE,
+        CantBeFrozen			=	TRUE,
+        WorldStaticModel		=	ZombiBombs,
+        CustomEatSound			=	EatingCrispy,
+		Tooltip					=	Tooltip_ZombiBombs,
+	}
+	
+    item MoobysSeltzerViolet
+    {
+		DisplayName				= Mooby's Cannabis Seltzer Violet Mango,
+		DisplayCategory			= Food,
+		Type					= Food,
+		Weight					= 0.3,
+		Icon					= MoobyCannabis,
+		EvolvedRecipe			= Beverage:4;Beverage2:4,
+		FoodType				= SoftDrink,
+		CantBeFrozen			= TRUE,
+		EatType					= bottle,
+		Packaged				= TRUE,
+		HungerChange			= 8,
+		ThirstChange			= -60,
+		UnhappyChange			= -20,
+		EnduranceChange			= -2,
+		FatigueChange			= 3,
+		StressChange			= -20,
+		Calories				= 0,
+		Carbohydrates			= 52,
+		Lipids					= 0,
+		Proteins				= 0,
+		CustomContextMenu		= Drink,
+		CustomEatSound			= DrinkingFromBottlePlastic,
+		StaticModel				= MoobysSeltzerViolet,
+		WorldStaticModel		= MoobysSeltzerViolet,
+    }
+	
+	
+model MoobysSeltzerViolet
+  {
+		mesh					= PopCanRed,
+		texture					= MoobysCannabisVioletMango,
+  }
+	
+    item MoobysSeltzerPineberry
+    {
+		DisplayName				= Mooby's Cannabis Seltzer Pineberry,
+		DisplayCategory			= Food,
+		Type					= Food,
+		Weight					= 0.3,
+		Icon					= MoobyCannabis,
+		EvolvedRecipe			= Beverage:4;Beverage2:4,
+		FoodType				= SoftDrink,
+		CantBeFrozen			= TRUE,
+		EatType					= bottle,
+		Packaged				= TRUE,
+		HungerChange			= 8,
+		ThirstChange			= -60,
+		UnhappyChange			= -20,
+		EnduranceChange			= -2,
+		FatigueChange			= 3,
+		StressChange			= -20,
+		Calories				= 0,
+		Carbohydrates			= 52,
+		Lipids					= 0,
+		Proteins				= 0,
+		CustomContextMenu		= Drink,
+		CustomEatSound			= DrinkingFromBottlePlastic,
+		StaticModel				= MoobysSeltzerPineberry,
+		WorldStaticModel		= MoobysSeltzerPineberry,
+    }
+	
+	
+model MoobysSeltzerPineberry
+  {
+		mesh					= PopCanRed,
+		texture					= MoobysCannabisPineberry,
+  }
+
+    item MoobysSeltzerTropical
+    {
+		DisplayName				= Mooby's Cannabis Seltzer Tropical Mango,
+		DisplayCategory			= Food,
+		Type					= Food,
+		Weight					= 0.3,
+		Icon					= MoobyCannabis,
+		EvolvedRecipe			= Beverage:4;Beverage2:4,
+		FoodType				= SoftDrink,
+		CantBeFrozen			= TRUE,
+		EatType					= bottle,
+		Packaged				= TRUE,
+		HungerChange			= 8,
+		ThirstChange			= -60,
+		UnhappyChange			= -20,
+		EnduranceChange			= -2,
+		FatigueChange			= 3,
+		StressChange			= -20,
+		Calories				= 0,
+		Carbohydrates			= 52,
+		Lipids					= 0,
+		Proteins				= 0,
+		CustomContextMenu		= Drink,
+		CustomEatSound			= DrinkingFromBottlePlastic,
+		StaticModel				= MoobysSeltzerTropical,
+		WorldStaticModel		= MoobysSeltzerTropical,
+    }
+	
+	
+model MoobysSeltzerTropical
+  {
+		mesh					= PopCanRed,
+		texture					= MoobysCannabisTropicalMango,
+  }
+
+    item MoobysSeltzerLemon
+    {
+		DisplayName				= Mooby's Cannabis Seltzer Heady Lemon,
+		DisplayCategory			= Food,
+		Type					= Food,
+		Weight					= 0.3,
+		Icon					= MoobyCannabis,
+		EvolvedRecipe			= Beverage:4;Beverage2:4,
+		FoodType				= SoftDrink,
+		CantBeFrozen			= TRUE,
+		EatType					= bottle,
+		Packaged				= TRUE,
+		HungerChange			= 8,
+		ThirstChange			= -60,
+		UnhappyChange			= -20,
+		EnduranceChange			= -2,
+		FatigueChange			= 3,
+		StressChange			= -20,
+		Calories				= 0,
+		Carbohydrates			= 52,
+		Lipids					= 0,
+		Proteins				= 0,
+		CustomContextMenu		= Drink,
+		CustomEatSound			= DrinkingFromBottlePlastic,
+		StaticModel				= MoobysSeltzerLemon,
+		WorldStaticModel		= MoobysSeltzerLemon,
+    }
+	
+	
+model MoobysSeltzerLemon
+  {
+		mesh					= PopCanRed,
+		texture					= MoobysCannabisHeadyLemon,
+  }
+
+	item SteakBake
+	{
+		DisplayCategory 		= Food,
+		Type 					= Food,
+		DisplayName 			= Microwaved Steakbake,
+		Icon 					= SteakBake,
+		Weight 					= 0.3,
+		HungerChange 			= -30,
+		UnhappyChange 			= -5,
+		ThirstChange 			= 2,
+		DaysTotallyRotten 		= 7,
+		Carbohydrates 			= 30,
+		Proteins 				= 14,
+		Lipids 					= 6.66,
+		Calories 				= 409,
+		DaysFresh 				= 4,
+		StaticModel				= SteakBakeModel,
+		WorldStaticModel 		= SteakBakeModel,
+	}
+	
+	model SteakBakeModel
+		{
+		mesh					= SteakBake_Model,
+		texture					= SteakBakeSkin,
+		}
+		
+	item IrnBru
+	{
+		DisplayName				= Irn-Bru,
+		DisplayCategory			= Food,
+		Type					= Food,
+		Weight					= 0.3,
+		Icon					= IrnBru,
+		EvolvedRecipe			= Beverage:4;Beverage2:4,
+		FoodType				= SoftDrink,
+		CantBeFrozen			= TRUE,
+		EatType					= popcan,
+		Packaged				= TRUE,
+		ReplaceOnUse			= IrnBruEmpty,
+		HungerChange			= -8,
+		ThirstChange			= -60,
+		UnhappyChange			= -10,
+		Calories				= 140,
+		Carbohydrates			= 39,
+		Lipids					= 0,
+		Proteins				= 0,
+		CustomContextMenu		= Drink,
+		CustomEatSound			= DrinkingFromCan,
+		StaticModel				= IrnBruCan,
+		WorldStaticModel		= IrnBruCan,
+		Tags = HasMetal,
+	}
+   
+	
+	model IrnBruCan
+	{
+		mesh					= PopCanRed,
+		texture					= IrnBruSkin,
+	}
+	
+    item IrnBruEmpty
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Empty Irn-Bru Can,
+        Icon	=	IrnBru,
+        MetalValue = 10,
+        WorldStaticModel = IrnBruCan,
+    }
+
+
+}

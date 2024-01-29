@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\NewRocks_Spike_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\NewRocks_Spike_F.fbx</m_FemaleModel>
+	<m_GUID>ce7d2111-6f54-4174-9412-a166ffef5c2b</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<textureChoices>NewRocks_Spike</textureChoices>
+</clothingItem>

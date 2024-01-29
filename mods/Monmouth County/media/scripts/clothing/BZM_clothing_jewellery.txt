@@ -1,0 +1,60 @@
+module BZMClothing
+{
+    item WristWatch_Right_DigitalKitten
+	{
+	    DisplayCategory				= Accessory,
+		Type						= AlarmClockClothing,
+		DisplayName					= Hello Kitten Watch,
+		ClothingItem				= WristWatch_Right_DigitalKitten,
+		BodyLocation				= RightWrist,
+		Icon						= Hello_Kitten_Watch,
+		Weight						= 0.1,
+        ClothingItemExtra			= WristWatch_Left_DigitalKitten,
+        ClothingItemExtraOption		= LeftWrist,
+        clothingExtraSubmenu		= RightWrist,
+		Cosmetic					= TRUE,
+		AlarmSound					= Watch_Meow,
+		SoundRadius					= 8,
+		MetalValue					= 3,
+		Tags						= Digital,
+		WorldStaticModel			= WorldItem_WristWatch_Kitten,
+	}
+    item WristWatch_Left_DigitalKitten
+	{
+	    DisplayCategory				= Accessory,
+		Type						= AlarmClockClothing,
+		DisplayName					= Hello Kitten Watch,
+		ClothingItem				= WristWatch_Left_DigitalKitten,
+		BodyLocation				= LeftWrist,
+		Icon						= Hello_Kitten_Watch,
+		Weight						= 0.1,
+        ClothingItemExtra			= WristWatch_Right_DigitalKitten,
+        ClothingItemExtraOption		= RightWrist,
+        clothingExtraSubmenu		= LeftWrist,
+		Cosmetic					= TRUE,
+		AlarmSound					= Watch_Meow,
+		SoundRadius					= 8,
+		MetalValue					= 3,
+		Tags						= Digital,
+		WorldStaticModel			= WorldItem_WristWatch_Kitten,
+	}
+    item Earring_Plug_Black
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Black Ear Plugs,
+		ClothingItem = Earring_Stud_Black_Both,
+		BodyLocation = Ears,
+		Icon = Earring_Stud_Black,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = Earring_StudBlack,
+	}
+	
+		model Earring_StudBlack
+    {
+        mesh = WorldItems/Earring_LoopMed_Ground,
+        texture = EarringBlack,
+        scale = 0.3,
+    }
+}

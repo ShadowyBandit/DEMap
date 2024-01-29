@@ -1,0 +1,9 @@
+name=Monmouth County
+id=MonmouthCounty_new_DE
+poster=poster.png
+icon=icon.png
+authors=BigZombieMonkey
+modversion=3.0.0
+description=This mod adds Monmouth County to the KY map and additional content.
+description=Included in this mod is new alicepacks, new craftable weapons, special zombie types and much more.
+require=DylansTiles,Diederiks Tile Palooza,tkTiles_01,BigZombieMonkeys_tile_pack,PertsPartyTiles,melos_tiles_for_miles_pack

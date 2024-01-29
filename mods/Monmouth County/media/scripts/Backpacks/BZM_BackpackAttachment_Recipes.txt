@@ -1,0 +1,185 @@
+module BZMRecipes{
+  imports {
+      Base
+  }
+
+recipe Make Alicepack Attachable Item
+  	{
+   	   Hat_GasMask,
+
+   	   Result:BZMClothing.Hat_GasMask,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}	
+	
+recipe Make Alicepack Attachable Item
+  	{
+   	   Rubberducky,
+	   BZM_MetalClip,	   
+
+   	   Result:BZMClothing.Rubberducky3,
+	   Time:50.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}	
+
+recipe Make Alicepack Attachable Item
+  	{
+   	   ToyBear,
+	   BZM_MetalClip,
+
+   	   Result:BZMClothing.ToyBear,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}
+recipe Make Alicepack Attachable Item
+  	{
+   	   Doll,
+	   BZM_MetalClip,	   
+
+   	   Result:BZMClothing.Doll,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}	
+recipe Make Alicepack Attachable Item
+  	{
+   	   Spiffo,
+	   BZM_MetalClip,	   
+
+   	   Result:BZMClothing.Spiffo,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}
+recipe Make Alicepack Attachable Item
+  	{
+   	   FurbertSquirrel,
+	   BZM_MetalClip,	   
+
+   	   Result:BZMClothing.FurbertSquirrel,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}
+recipe Make Alicepack Attachable Item
+  	{
+   	   FluffyfootBunny,
+	   BZM_MetalClip,	   
+
+   	   Result:BZMClothing.FluffyfootBunny,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}
+recipe Make Alicepack Attachable Item
+  	{
+   	   MoleyMole,
+	   BZM_MetalClip,	   
+
+   	   Result:BZMClothing.MoleyMole,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}	
+recipe Make Alicepack Attachable Item
+  	{
+   	   PancakeHedgehog,
+	   BZM_MetalClip,	   
+
+   	   Result:BZMClothing.PancakeHedgehog,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}
+recipe Make Alicepack Attachable Item
+  	{
+   	   FreddyFox,
+	   BZM_MetalClip,	   
+
+   	   Result:BZMClothing.FreddyFox,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}
+recipe Make Alicepack Attachable Item
+  	{
+   	   JacquesBeaver,
+	   BZM_MetalClip,	   
+
+   	   Result:BZMClothing.JacquesBeaver,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}	
+recipe Make Alicepack Attachable Item
+  	{
+   	   BorisBadger,
+	   BZM_MetalClip,	   
+
+   	   Result:BZMClothing.BorisBadger,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}		
+recipe Make Alicepack Attachable Item
+  	{
+   	   Pop,
+
+	   OnCreate:BZMKeepFoodContent_OnCreate,
+   	   Result:BZMClothing.Pop,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}
+recipe Make Alicepack Attachable Item
+  	{
+   	   Pop2,
+
+	   OnCreate:BZMKeepFoodContent_OnCreate,
+   	   Result:BZMClothing.Pop2,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}	
+recipe Make Alicepack Attachable Item
+  	{
+   	   Pop3,
+
+	   OnCreate:BZMKeepFoodContent_OnCreate,
+   	   Result:BZMClothing.Pop3,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}	
+recipe Make Alicepack Attachable Item
+  	{
+   	   Base.PopBottleEmpty,
+
+   	   Result:BZMClothing.PopBottleEmpty,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}	
+recipe Make Alicepack Attachable Item
+  	{
+   	   Base.WaterBottleEmpty,
+
+   	   Result:BZMClothing.WaterBottleEmpty,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}
+recipe Make Alicepack Attachable Item
+  	{
+   	   destroy Base.WaterBottleFull,
+
+	   OnCreate:BZMKeepDrainableContent_OnCreate,
+   	   Result:BZMClothing.WaterBottleFull,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}	
+recipe Make Alicepack Attachable Item
+  	{
+   	   destroy Base.WaterPopBottle,
+
+	   OnCreate:BZMKeepDrainableContent_OnCreate,
+   	   Result:BZMClothing.WaterPopBottle,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}	
+recipe Make Alicepack Attachable Item
+  	{
+   	   destroy Base.PopBottle,
+
+	   OnCreate:BZMKeepFoodContent_OnCreate,
+   	   Result:BZMClothing.PopBottle,
+	   Time:30.0,
+	   Tooltip:Tooltip_AttachAlicepack,
+  	}
+}		

@@ -1,0 +1,14 @@
+module MonmouthNotes
+{
+        item SpikesNote
+	{
+		DisplayCategory			= Literature,
+		Weight					= 0.1,
+		Type					= Map,
+		DisplayName				= Spike's Note,
+		Icon					= Spikes_Note,
+		Tooltip					= Tooltip_SpikesNote,
+		Map						= MonmouthNotes_SpikesNote,
+		WorldStaticModel		= WorldItem_SpikesNote,
+	}
+}

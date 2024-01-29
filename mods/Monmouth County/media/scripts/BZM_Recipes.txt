@@ -1,0 +1,56 @@
+module BZMRecipes 
+
+/*All recipes created by Authentic Peach*/
+
+{
+  imports {
+      Base
+  }
+
+	recipe Remove Battery
+   {
+     keep BZMClothing.BZM_MilitaryFlashlightBlack,
+
+     Result:Battery,
+     Time:50,
+     OnTest:Recipe.OnTest.TorchBatteryRemoval,
+     OnCreate:BZMTorchBatteryRemoval_OnCreate,
+     Prop2:BZM_MilitaryFlashlightBlack,
+   }
+
+  	 recipe Insert Battery into Military Flashlight
+   {
+     destroy BZMClothing.BZM_MilitaryFlashlightBlack,
+     destroy Battery,
+
+     Result:BZMClothing.BZM_MilitaryFlashlightBlack,
+     Time:50,
+     OnTest:BZMTorchBatteryInsert_TestIsValid,
+     OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+     Prop2:BZMClothing.BZM_MilitaryFlashlightBlack,
+   }
+
+	recipe Remove Battery
+   {
+     keep BZM_MilitaryFlashlightPurple,
+
+     Result:Battery,
+     Time:30,
+     OnTest:Recipe.OnTest.TorchBatteryRemoval,
+     OnCreate:BZMTorchBatteryRemoval_OnCreate,
+     Prop2:BZM_MilitaryFlashlightPurple,
+   }
+
+  	 recipe Insert Battery into Military Flashlight
+   {
+     destroy BZMClothing.BZM_MilitaryFlashlightPurple,
+     destroy Battery,
+
+     Result:BZMClothing.BZM_MilitaryFlashlightPurple,
+     Time:30,
+     OnTest:BZMTorchBatteryInsert_TestIsValid,
+     OnCreate:Recipe.OnCreate.TorchBatteryInsert,
+     Prop2:BZMClothing.BZM_MilitaryFlashlightPurple,
+   }
+
+}		

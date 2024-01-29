@@ -1,0 +1,352 @@
+module BZMClothing 
+
+/*
+All models with AuthenticZ_pretext are created by Authentic Peach
+CarabinerClip, Canteen & Military Flashlight are credited to Authentic Peach
+*/
+
+{
+  imports {
+      Base
+		  }
+	
+    item Rubberducky3
+    {
+        DisplayCategory		 	= 	Raccoon,
+        Weight					=	0.1,
+        Type					=	Normal,
+        DisplayName				=	Rubber Duck,
+        Icon					=	Rubberducky,
+        WorldStaticModel 		= 	Rubberducky,
+        AttachmentType  		= 	RubberDuck,
+		StaticModel 			= 	Rubberducky,			
+    }	
+		
+   item Spiffo
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Spiffo,
+		Icon					=	PlushSpiffo,
+		WorldStaticModel 		= 	SpiffoPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SpiffoPlushie,		
+	}
+	
+    item Doll
+    {
+        DisplayCategory 		=	Raccoon,		
+        Type					=	Normal,
+        DisplayName				=	Doll,
+        Icon					=	Doll,
+        Weight					=	0.1,
+        WorldStaticModel 		=	Doll,
+        AttachmentType  		=	Doll,
+		StaticModel 			=	Doll,				
+    }
+	
+	item ToyBear
+	{
+        DisplayCategory 		= 	Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Toy Bear,
+		Icon					=	ToyBear,
+		WorldStaticModel 		= 	ToyBear,
+        AttachmentType  		= 	TeddyBear,		
+		StaticModel 			= 	ToyBear,	
+	}
+
+	item ToyBearSmall
+	{
+        DisplayCategory 		= 	Raccoon,		
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Toy Bear,
+		Icon					=	ToyBear,
+		WorldStaticModel 		= 	AuthenticZ_ToyBearSmall,
+        AttachmentType  		= 	SpiffoPlushie,		
+		StaticModel 			= 	AuthenticZ_ToyBearSmall,	
+	}	
+
+    item SpiffoDredd
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Judge Spiffo,
+		Icon					=	Spiffo_Dredd,
+		WorldStaticModel 		= 	WorldItem_DreddSpiffodPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	DreddSpiffodPlushie,		
+	}	
+
+    item SpiffoBatman
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Batman Spiffo,
+		Icon					=	Spiffo_Batman,
+		WorldStaticModel 		= 	WorldItem_BatmanSpiffodPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	BatmanSpiffodPlushie,		
+	}
+	
+    item MonkeyPlushie
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Monkey Plushie,
+		Icon					=	Plushie_Monkey,
+		WorldStaticModel 		= 	WorldItem_MonkeyPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	MonkeyPlushie,		
+	}	
+	
+    item BunnyPlushie
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Bunny Plushie,
+		Icon					=	Plushie_Bunny,
+		WorldStaticModel 		= 	WorldItem_BunnyPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	BunnyPlushie,		
+	}	
+	
+	item PokeballPlushie
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Pokeball Plushie,
+		Icon					=	Plushie_Pokeball,
+		WorldStaticModel 		= 	WorldItem_PokeballPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	PokeballPlushie,		
+	}	
+	
+    item PenguinPlushie
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Penguin Plushie,
+		Icon					=	Plushie_Penguin,
+		WorldStaticModel 		= 	WorldItem_PenguinPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	PenguinPlushie,		
+	}
+	item SheepPlushie
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Sheep Plushie,
+		Icon					=	Plushie_Sheep,
+		WorldStaticModel 		= 	WorldItem_SheepPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SheepPlushie,		
+	}	
+	item SlimerPlushie
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Slime guy Plushie,
+		Icon					=	Plushie_Slimer,
+		WorldStaticModel 		= 	WorldItem_SlimerPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	SlimerPlushie,		
+	}	
+	item DarbyPlushie
+	{
+        DisplayCategory 		=  	Raccoon,	
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Darby Plushie,
+		Icon					=	Plushie_Darby,
+		WorldStaticModel 		= 	WorldItem_DarbyPlushie,
+        AttachmentType  		= 	SpiffoPlushie,
+		StaticModel 			= 	DarbyPlushie,		
+	}	
+	
+	item BZMCanteenBlack
+    {
+        DisplayCategory 		= 	WaterContainer, 		
+       	Weight    		 		= 	0.2,
+		CanStoreWater			= 	TRUE,
+        Type    				= 	Normal,
+        DisplayName     		= 	Black Canteen,
+		ReplaceOnUseOn			= 	WaterSource-BZMCanteenBlackfull,
+        Icon 					= 	CanteenBlack,
+		RainFactor 				= 	1,
+		StaticModel 			= 	BZMCanteenBlack,
+		WorldStaticModel 		= 	WorldItem_CanteenBlack,
+		AttachmentType  		= 	Canteen,		
+	}
+
+	item BZMCanteenBlackfull
+    {
+        DisplayCategory 		=	WaterContainer, 		
+		IsWaterSource			=	TRUE,
+		Weight					=	1.5,
+		CanStoreWater			=	TRUE,
+		Type					=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		IsCookable				=	TRUE,
+		UseDelta				=	0.05,
+		DisplayName				=	Black Canteen with Water,
+		ReplaceOnDeplete		=	BZMCanteenBlack,
+		ReplaceOnUseOn			=	WaterSource-BZMCanteenBlackfull,
+		Icon					=	CanteenBlack,
+		RainFactor 				= 	1,
+		StaticModel 			= 	BZMCanteenBlack,
+		WorldStaticModel 		= 	WorldItem_CanteenBlack,
+		AttachmentType  		= 	Canteen,			
+	}
+	item BZMCanteenLime
+    {
+        DisplayCategory 		=	WaterContainer, 		
+       	Weight    		 		= 	0.2,
+		CanStoreWater			= 	TRUE,
+        Type    				= 	Normal,
+        DisplayName     		= 	Lime Canteen,
+		ReplaceOnUseOn			= 	WaterSource-BZMCanteenLimefull,
+        Icon 					= 	CanteenLime,
+		RainFactor 				= 	1,
+		StaticModel 			= 	BZMCanteenLime,
+		WorldStaticModel 		= 	WorldItem_CanteenLime,	
+		AttachmentType 		 	= 	Canteen,			
+	}
+
+	item BZMCanteenLimefull
+    {
+        DisplayCategory 		= 	WaterContainer, 		
+		IsWaterSource			=	TRUE,
+		Weight					=	1.5,
+		CanStoreWater			=	TRUE,
+		Type					=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		IsCookable				=	TRUE,
+		UseDelta				=	0.05,
+		DisplayName				=	Lime Canteen with Water,
+		ReplaceOnDeplete		=	BZMCanteenLime,
+		ReplaceOnUseOn			=	WaterSource-BZMCanteenLimefull,
+		Icon					=	CanteenLime,
+		RainFactor 				= 	1,
+		StaticModel 			= 	BZMCanteenLime,
+		WorldStaticModel 		= 	WorldItem_CanteenLime,	
+		AttachmentType  		= 	Canteen,			
+	}
+	
+	item BZMCanteenPurple
+    {
+        DisplayCategory 		=	WaterContainer, 		
+       	Weight    		 		= 	0.2,
+		CanStoreWater			= 	TRUE,
+        Type    				= 	Normal,
+        DisplayName     		= 	Purple Canteen,
+		ReplaceOnUseOn			= 	WaterSource-BZMCanteenPurplefull,
+        Icon 					= 	CanteenPurple,
+		RainFactor 				= 	1,
+		StaticModel 			= 	BZMCanteenPurple,
+		WorldStaticModel 		= 	WorldItem_CanteenPurple,	
+		AttachmentType  		= 	Canteen,			
+	}
+
+	item BZMCanteenPurplefull
+    {
+        DisplayCategory 		= 	WaterContainer, 		
+		IsWaterSource			=	TRUE,
+		Weight					=	1.5,
+		CanStoreWater			=	TRUE,
+		Type					=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		IsCookable				=	TRUE,
+		UseDelta				=	0.05,
+		DisplayName				=	Purple Canteen with Water,
+		ReplaceOnDeplete		=	BZMCanteenPurple,
+		ReplaceOnUseOn			=	WaterSource-BZMCanteenPurple,
+		Icon					=	CanteenPurple,
+		RainFactor 				= 	1,
+		StaticModel 			= 	BZMCanteenPurple,
+		WorldStaticModel 		= 	WorldItem_CanteenPurple,	
+		AttachmentType  		= 	Canteen,			
+	}
+
+	item BZM_MilitaryFlashlightBlack
+	{
+        DisplayCategory			=	LightSource,	
+		DisplayName				=	Black Military Flashlight,
+		Icon					=	MilitaryFlashlightBlack,
+		Type					=	Drainable,
+		Weight					=	0.5,
+		LightDistance			=	25,
+		DisappearOnUse			=	FALSE,
+		TorchCone				=	TRUE,
+		UseDelta				=	0.0005,
+		LightStrength			=	0.8,
+		ActivatedItem			=	TRUE,
+		cantBeConsolided		=	TRUE,
+		StaticModel				=	BZM_MilitaryFlashlightBlack,
+		AttachmentType			=	MilitaryFlashlight,
+		primaryAnimMask			=	HoldingTorchRight,
+        secondaryAnimMask		=	HoldingTorchLeft,
+		WorldStaticModel		=	BZM_MilitaryFlashlightBlack,			
+	}  
+
+	item BZM_MilitaryFlashlightPurple
+	{
+        DisplayCategory 		= 	LightSource,	
+		DisplayName				=	Purple Military Flashlight,	
+		Icon					=	MilitaryFlashlightPurple,
+		Type					=	Drainable,		
+		Weight					=	0.5,		
+		LightDistance			=	25,
+		DisappearOnUse			=	FALSE,
+		TorchCone				=	TRUE,
+		UseDelta				=	0.0005,
+		LightStrength			=	0.8,
+		ActivatedItem			=	TRUE,
+		MetalValue 				= 	10,
+		cantBeConsolided 		=	TRUE,
+		StaticModel 			=	BZM_MilitaryFlashlightPurple,
+		AttachmentType	 		=   MilitaryFlashlight,
+		primaryAnimMask 		=	HoldingTorchRight,
+        secondaryAnimMask 		=	HoldingTorchLeft,
+		WorldStaticModel 		= 	BZM_MilitaryFlashlightPurple,			
+	}  
+	
+	item BZM_MetalClip
+	{
+        DisplayCategory			=	Material,	
+        Weight					=	0.05,
+        Type					=	Normal,
+        DisplayName				=	Snap Ring,
+        Icon					=	CarabinerClip,
+		StaticModel				=	Carabiner,			
+		WorldStaticModel		=	WorldItem_Carabiner,
+		Tooltip					=	Tooltip_SnapRing,
+	}
+
+    item TobinsSpiritGuideBook
+	{
+	    DisplayCategory			=	Literature,
+		Weight					=	0.5,
+		Type					=	Literature,
+		UnhappyChange			=	-30,
+		DisplayName				=	Tobin's Spirit Guide,
+		StressChange			=	+10,
+		Icon					=	TobinSpiritGuideBook,
+		BoredomChange			=	-60,
+		StaticModel				=	TobinsSpiritGuideBook,
+		WorldStaticModel		=	WorldItem_TobinsSpiritGuideBook,
+		Tooltip					=	Tooltip_TobinsSpiritGuide,
+	}
+
+}		

@@ -1,0 +1,178 @@
+module MonmouthClothing
+{
+    item Shorts_ShortsFraz
+    {
+        DisplayCategory				= Clothing,
+        Type						= Clothing,
+        DisplayName					= Fraz's Shorts,
+        ClothingItem				= Shorts_ShortsFraz,
+        BodyLocation				= Pants,
+        BloodLocation				= ShortsShort,
+        Icon						= FrazShorts,
+        Insulation					= 0.15,
+        WindResistance				= 0.10,
+        FabricType					= Cotton,
+        WorldStaticModel			= ShortShorts_Ground,
+    }
+    item Trousers_Jay
+    {
+       DisplayCategory				= Clothing,		
+        Type						= Clothing,
+        DisplayName					= Jay's Joggers,
+        ClothingItem				= Trousers_Jay,
+        BodyLocation				= Pants,
+        Icon						= JaysJoggers_Icon,
+        BloodLocation				= Trousers,
+        Insulation					= 0.15,
+        WindResistance				= 0.05,
+        FabricType					= Cotton,
+        WorldStaticModel			= Trousers_Ground,
+	}
+    item Dantes_Trousers
+    {
+        DisplayCategory				= Clothing,
+        Type						= Clothing,
+        DisplayName					= Dante's Cargo Pants,
+        ClothingItem				= Dantes_Trousers,
+        BodyLocation				= Pants,
+        Icon						= TrousersDante,
+        BloodLocation				= Trousers,
+        ScratchDefense				= 10,
+        Insulation					= 0.55,
+        WindResistance				= 0.3,
+        FabricType					= Cotton,
+        WorldStaticModel			= Trousers_Ground,
+    }
+    item Trousers_Denim_Randal
+    {
+        DisplayCategory				= Clothing,
+        Type						= Clothing,
+        DisplayName					= Randal's Jeans,
+        ClothingItem				= Trousers_Denim_Randal,
+        BodyLocation				= Pants,
+        Icon						= Denim_Randal,
+        BloodLocation				= Trousers,
+        BiteDefense					= 10,
+        ScratchDefense				= 20,
+        RunSpeedModifier			= 0.98,
+        Insulation					= 0.7,
+        WindResistance				= 0.55,
+        FabricType					= Denim,
+        WorldStaticModel			= Trousers_Ground,
+    }
+    item Shorts_CamoGreenLongUnknown
+    {
+        DisplayCategory				= Clothing,
+        Type						= Clothing,
+        DisplayName					= Unknown's Camo Shorts,
+        ClothingItem				= Shorts_CamoGreenLongUnknown,
+        BodyLocation				= Pants,
+        Icon						= TrousersCamoGreen,
+        BloodLocation				= Trousers,
+        Insulation					= 0.5,
+        WindResistance				= 0.3,
+        WaterResistance				= 0.3,
+        FabricType					= Cotton,
+        WorldStaticModel			= LongShorts_Ground,
+    }
+    item Trousers_Elias_Cargo
+    {
+        DisplayCategory				= Clothing,
+        Type						= Clothing,
+        DisplayName					= Elias' Cargo Pants,
+        ClothingItem				= Trousers_Elias_Cargo,
+        BodyLocation				= Pants,
+        Icon						= Cargo_Elias,
+        BloodLocation				= Trousers,
+        BiteDefense					= 5,
+        ScratchDefense				= 20,
+        RunSpeedModifier			= 0.98,
+        Insulation					= 0.3,
+        WindResistance				= 0.55,
+        FabricType					= Denim,
+        WorldStaticModel			= Trousers_Ground,
+    }
+    item Shorts_LongDenim_Spikes
+    {
+        DisplayCategory				= Clothing,
+        Type						= Clothing,
+        DisplayName					= Spike's Long Denim Shorts,
+        ClothingItem				= Shorts_LongDenim_Spikes,
+        BodyLocation				= Pants,
+        Icon						= TrousersDenimBlue,
+        BloodLocation				= Trousers,
+        BiteDefense					= 10,
+        ScratchDefense				= 20,
+        Insulation					= 0.45,
+        WindResistance				= 0.45,
+        FabricType					= Denim,
+        WorldStaticModel			= LongShorts_Ground,
+    }
+    item Trousers_KK_Leather
+    {
+        DisplayCategory				= Clothing,
+        Type						= Clothing,
+        DisplayName					= Sexy Stud's Leather Chaps,
+        ClothingItem				= Trousers_KK_Leather,
+        BodyLocation				= Pants,
+        BloodLocation				= Trousers,
+        Icon						= KKLeatherTrousers,
+        BiteDefense					= 15,
+        ScratchDefense				= 30,
+        RunSpeedModifier			= 0.98,
+        Insulation					= 0.25,
+        WindResistance				= 0.30,
+        FabricType					= Leather,
+        WorldStaticModel			= Trousers_Ground,
+    }
+	model Trousers_Ground
+    {
+        mesh = WorldItems/Clothing/Bob_Trousers_Ground,
+        scale = 0.33,
+    }
+    item Trousers_Denim_Toddy
+    {
+        DisplayCategory				= Clothing,
+        Type						= Clothing,
+        DisplayName					= Toddy's Levi Jeans,
+        ClothingItem				= Trousers_Denim_Toddy,
+        BodyLocation				= Pants,
+        Icon						= Denim_Toddy,
+        BloodLocation				= Trousers,
+        BiteDefense					= 10,
+        ScratchDefense				= 20,
+        RunSpeedModifier			= 0.98,
+        Insulation					= 0.7,
+        WindResistance				= 0.55,
+        FabricType					= Denim,
+        WorldStaticModel			= Trousers_Ground,
+    }
+    item Legs_Fishnets
+    {
+        DisplayCategory				= Clothing,
+        Type						= Clothing,
+        DisplayName					= Fishnet Leggings,
+        ClothingItem				= Legs_Fishnets,
+        BodyLocation				= Legs1,
+        BloodLocation				= Trousers,
+        Icon						= FishnetLeggings,
+        Insulation					= 0.1,
+        WindResistance				= 0.1,
+        FabricType					= Cotton,
+        WorldStaticModel			= TightsFishnet_Ground,
+    }
+	item Skirt_Mini_Amelora
+    {
+        DisplayCategory				= Clothing,
+        Type						= Clothing,
+        DisplayName					= Amelora's Mini Skirt,
+        ClothingItem				= Skirt_Mini_Amelora,
+        BodyLocation				= Skirt,
+        Icon						= SkirtShortAmelora,
+        BloodLocation				= ShortsShort,
+        Insulation					= 0.1,
+        WindResistance				= 0.01,
+        FabricType					= Cotton,
+        WorldStaticModel			= Skirt_Short_Ground,
+    }
+}

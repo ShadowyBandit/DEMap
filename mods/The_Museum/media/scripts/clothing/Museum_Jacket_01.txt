@@ -1,0 +1,22 @@
+module Base
+{
+ item Museum_Jacket_01
+ {
+ Type = Clothing,
+ DisplayName = Museum Guard Jacket,
+ ClothingItem = Museum_Jacket_01,
+ BodyLocation = Jacket,
+ Icon = Museum_Jacket_01_Icon,
+ BloodLocation = Jacket,
+ RunSpeedModifier = 0.89,
+ CombatSpeedModifier = 0.96,
+ BiteDefense = 10,
+ ScratchDefense = 20,
+ NeckProtectionModifier = 0.5,
+ Insulation = 0.5,
+ WindResistance = 0.5,
+ WaterResistance = 0.60,
+ Weight = 3,
+ WorldStaticModel = Jacket_Ground,
+ }
+}

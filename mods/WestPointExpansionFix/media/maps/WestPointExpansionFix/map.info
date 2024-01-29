@@ -1,0 +1,4 @@
+title= West Point Expansion Fix
+lots=BaseMap
+description= A complete replacement of the tile on the northbound road out of the expansion bit of West Point
+fixed2x=true

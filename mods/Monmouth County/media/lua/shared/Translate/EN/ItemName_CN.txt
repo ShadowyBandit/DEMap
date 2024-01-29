@@ -1,0 +1,125 @@
+ItemName_CN = {
+
+	/* Bags */
+	ItemName_BZMClothing.Bag_ALICEpack_Spike				=	"斯派克大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_Spike_Tier_1			=	"斯派克大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_Spike_Tier_2			=	"斯派克大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_Spike_Tier_3			= 	"斯派克大背包",
+
+	ItemName_BZMClothing.Bag_ALICEpack_Black				=	"黑色大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_Black_Tier_1			=	"黑色大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_Black_Tier_2			=	"黑色大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_Black_Tier_3			=	"黑色大背包",
+
+	ItemName_BZMClothing.Bag_ALICEpack_GaPDC				=	"绿紫迷彩大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_GaPDC_Tier_1			=	"绿紫迷彩大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_GaPDC_Tier_2			=	"绿紫迷彩大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_GaPDC_Tier_3			=	"绿紫迷彩大背包",
+
+	ItemName_BZMClothing.Bag_ALICEpack_Olive				=	"橄榄绿大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_Olive_Tier_1			=	"橄榄绿大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_Olive_Tier_2			=	"橄榄绿大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_Olive_Tier_3			=	"橄榄绿大背包",
+
+	ItemName_BZMClothing.Bag_ALICEpack_PinkSkyBlue			=	"粉蓝大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_PinkSkyBlue_Tier_1	=	"粉蓝大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_PinkSkyBlue_Tier_2	=	"粉蓝大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_PinkSkyBlue_Tier_3	=	"粉蓝大背包",
+
+	ItemName_BZMClothing.Bag_ALICEpack_Sand					=	"沙漠大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_Sand_Tier_1			=	"沙漠大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_Sand_Tier_2			=	"沙漠大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_Sand_Tier_3			=	"沙漠大背包",
+
+	ItemName_BZMClothing.Bag_ALICEpack_WaGDC				=	"灰白迷彩大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_WaGDC_Tier_1			=	"灰白迷彩大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_WaGDC_Tier_2			=	"灰白迷彩大背包",
+	ItemName_BZMClothing.Bag_ALICEpack_WaGDC_Tier_3			=	"灰白迷彩大背包",
+	
+	/* Jewelry */
+	ItemName_BZMClothing.WristWatch_Right_DigitalKitten		=	"Hello Kitten手表",
+	ItemName_BZMClothing.WristWatch_Left_DigitalKitten		=	"Hello Kitten手表",
+	
+	/* Hats */
+	ItemName_MonmouthClothing.Hat_VisorMoobys				=	"穆比遮阳帽",
+	ItemName_MonmouthClothing.Hat_BaseballCapFraz_Reverse	=	"弗雷兹帽",
+	ItemName_MonmouthClothing.Hat_Silent_Bob				=	"无声鲍勃的帽子",
+	ItemName_MonmouthClothing.Hat_JaysBeanie				=	"杰伊的毛线帽",
+	ItemName_MonmouthClothing.Hat_BunnyEarsAmelora			=	"兔子耳朵",
+	ItemName_MonmouthClothing.Helmet_Judge					=	"法官头盔",
+	ItemName_MonmouthClothing.Mask_AmeloraBunny				=	"兔子面具",
+	ItemName_MonmouthClothing.Mask_Mooby					=	"穆比头",
+	ItemName_MonmouthClothing.BZM_Art_Hat					=	"艺术帽子",
+	
+	/* Jackets */
+
+	ItemName_MonmouthClothing.Jacket_Dead_Apes				=	"死猴子皮夹克",
+	ItemName_MonmouthClothing.Jacket_SilentBobsCoat			=	"沉默鲍勃外套",
+	ItemName_MonmouthClothing.JacketLong_Jays				=	"杰伊的夹克",
+	
+	/* Others */
+	ItemName_MonmouthClothing.Glove_Single_Art				=	"艺术家手指手套",
+	
+	/* Pants */
+	ItemName_MonmouthClothing.Shorts_ShortsFraz				=	"弗雷兹的短裤",
+	ItemName_MonmouthClothing.Shorts_Trousers_Jay			=	"杰伊的慢跑裤",
+	
+	/* Shirts */
+	ItemName_MonmouthClothing.Moobys_Shirt					=	"穆比制服",
+	ItemName_MonmouthClothing.Tshirt_Black_Fraz				=	"弗雷兹的T恤",
+	ItemName_MonmouthClothing.Tshirt_Black_SilentBob		=	"沉默鲍勃T恤",
+	ItemName_MonmouthClothing.Tshirt_Berserker				=	"狂暴者T恤",
+	
+	/* Shoes */
+	ItemName_MonmouthClothing.Shoes_BlackTrainers			=	"智障培训师",
+	
+	/* Suits */
+	ItemName_MonmouthClothing.Art_the_Clown_Outfit			=	"艺术小丑套装",
+
+	/* Items */
+	ItemName_BZMClothing.Rubberducky3						=	"橡皮鸭",
+	ItemName_BZMClothing.Spiffo								=	"斯皮福玩偶",
+	ItemName_BZMClothing.Doll								=	"洋娃娃",	
+	ItemName_BZMClothing.ToyBear							=	"玩具熊",
+	ItemName_BZMClothing.ToyBearSmall						=	"玩具熊",
+	ItemName_BZMClothing.SpiffoDredd						=	"超时空战警玩偶",
+	
+	ItemName_BZMClothing.SpiffoBatman						=	"蝙蝠侠玩偶",
+	ItemName_BZMClothing.MonkeyPlushie						=	"猴子玩偶",
+	ItemName_BZMClothing.BunnyPlushie						=	"兔子玩偶",
+	ItemName_BZMClothing.PokeballPlushie					=	"精灵球",
+	ItemName_BZMClothing.PenguinPlushie						=	"企鹅玩偶",
+	ItemName_BZMClothing.SheepPlushie						=	"绵羊玩偶",	
+	ItemName_BZMClothing.SlimerPlushie						=	"史莱姆玩偶",	
+	ItemName_BZMClothing.DarbyPlushie 						= 	"达比玩偶",
+	ItemName_BZMClothing.BZMCanteenBlack 					= 	"黑色水壶",
+	ItemName_BZMClothing.BZMCanteenBlackfull 				= 	"黑色水壶(水)",
+	ItemName_BZMClothing.BZMCanteenLime 					=	"青柠水壶",
+	ItemName_BZMClothing.BZMCanteenLimefull 				= 	"青柠水水壶(水)",
+	ItemName_BZMClothing.BZMCanteenPurple 					= 	"紫色水壶",
+	ItemName_BZMClothing.BZMCanteenPurplefull 				= 	"紫色水壶(水)",
+	ItemName_BZMClothing.BZM_MilitaryFlashlightBlack		=	"军用手电筒(黑色)",	
+	ItemName_BZMClothing.BZM_MilitaryFlashlightPurple		=	"军用手电筒(紫色)",	
+	ItemName_BZMClothing.BZM_MetalClip						=	"登山扣",	
+	ItemName_BZMClothing.TobinsSpiritGuideBook				=	"托宾精神指南",	
+	
+	ItemName_MonmouthWeapons.KukriMacheteSpike				=	"库克里弯刀",
+	ItemName_MonmouthWeapons.PickAxePink					=	"粉色鹤嘴锄",	
+	ItemName_MonmouthWeapons.Hammer_Reinforced				=	"加强型锤子",	
+	ItemName_MonmouthWeapons.SpearGungnir					=	"冈尼尔长枪",	
+	ItemName_MonmouthWeapons.CrowbarScorpion				=	"蝎尾刺撬棍",	
+	ItemName_MonmouthWeapons.AxeBZMCrafted					=	"改装斧",	
+
+	ItemName_MonmouthItems.BaCI1_Comic						=	"大烟鬼和钝男 #1",	
+	ItemName_MonmouthItems.BaCI2_Comic						=	"大烟鬼和钝男 #2",	
+	ItemName_MonmouthItems.BaCI3_Comic						=	"大烟鬼和钝男 #3",	
+	
+	/* Foods */
+	ItemName_MonmouthFoods.ZombieBombs						=	"僵尸炸弹糖果",
+	ItemName_BZMClothing.Pop = "罐装汽水(无糖)",
+	ItemName_BZMClothing.Pop2 = "罐装汽水(原味)",
+	ItemName_BZMClothing.Pop3 = "罐装汽水(薄荷)",
+	ItemName_BZMClothing.PopBottle = "橙汁汽水",
+	ItemName_BZMClothing.PopBottleEmpty = "汽水瓶(空)",
+
+}

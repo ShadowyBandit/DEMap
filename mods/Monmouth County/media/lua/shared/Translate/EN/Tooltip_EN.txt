@@ -1,0 +1,33 @@
+Tooltip_EN = {
+
+	Tooltip_AttachAlicepack					=	"Modifies item for attaching to upgraded Alice Pack",
+	Tooltip_AttachBackpackRevert			=	"Reverts item to vanilla form",
+	Tooltip_AttachAliceBackpackTier1		=	"Adds Slots: Secondary bag, Item 1, Item 2 & Water Bottle",
+	Tooltip_AttachAliceBackpackTier2		=	"Adds Slots: Item 3, Plushie and Saw",
+	Tooltip_AttachAliceBackpackTier3		=	"Adds Slots: Item 4, Item 5, Water Bottle 2, Flashlight",
+
+
+	Tooltip_SnapRing						=	"Used to attach items to backpacks",		
+	Tooltip_SpikesNote						=	"A survivors note",
+	Tooltip_SpikeKukri						=	"An antique Nepalese kukri knife",
+	Tooltip_PickAxePink						=	"A pickaxe painted pink",
+	Tooltip_ReinforcedHammer				=	"A Hammer with a reinforced head",
+	Tooltip_SpearGungnir					=	"A replica of Gungnir the spear of the god Odin",
+	Tooltip_ScorpionCrowbar					=	"A highly customized crowbar with a Scorpion sting shaped tail",
+	Tooltip_AxeBZMCrafted					=	"A customized axe, heavy but quick",
+	Tooltip_Crowbarski						=	"Who the fuck makes a crowbar out of crystal?!"
+	
+	Tooltip_AlicePackSpike					=	"This backpack belonged to the 'creator' ",
+	Tooltip_Berserker						=	"Would you like some making fuck BERSERKER!",
+	Tooltip_SilentBob						=	"....",
+	Tooltip_Jay								=	"Snoochie Boochies!",
+	Tooltip_LaFours_Hat						=	"This belonged to the most feared Security Guard in the business!"
+	Tooltip_LaFours_Shirt					=	"I heard he's even got two kills!"
+	
+	Tooltip_TobinsSpiritGuide				=	"A guide to the spirits",
+	Tooltip_Tooltip_ZombiBombs				=	"Covered in chilli flakes and sour too?!"
+
+	Tooltip_item_BaCI1						=	"LaFours vs Bluntman & Chronic - Issue #1"
+	Tooltip_item_BaCI2						=	"The New Adventures of Bluntman & Chronic - Issue #2"
+	Tooltip_item_BaCI3						=	"The Inevitable Death of Chronic - Issue #3"
+	}
