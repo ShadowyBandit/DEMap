@@ -11,7 +11,7 @@ return {
     { worldX = 39, worldY = 23, posX = 196, posY = 115, posZ = 0 },
     { worldX = 40, worldY = 23, posX = 21, posY = 14, posZ = 0 },
     { worldX = 38, worldY = 23, posX = 137, posY = 86, posZ = 0 },
-    { worldX = 38, worldY = 23, posX = 80, posY = 124, posZ = 0 }
+    { worldX = 38, worldY = 23, posX = 80, posY = 124, posZ = 0 },
     { worldX = 40, worldY = 22, posX = 286, posY = 177, posZ = 0 },
     { worldX = 40, worldY = 22, posX = 197, posY = 272, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 216, posY = 176, posZ = 0 },
@@ -35,7 +35,7 @@ return {
     { worldX = 38, worldY = 22, posX = 243, posY = 96, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 94, posY = 102, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 12, posY = 124, posZ = 0 },
-    { worldX = 37, worldY = 22, posX = 197, posY = 130, posZ = 0 }
+    { worldX = 37, worldY = 22, posX = 197, posY = 130, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 272, posY = 248, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 199, posY = 281, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 49, posY = 224, posZ = 0 },
@@ -61,7 +61,7 @@ return {
     { worldX = 38, worldY = 23, posX = 80, posY = 124, posZ = 0 },
     { worldX = 38, worldY = 23, posX = 133, posY = 24, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 240, posY = 277, posZ = 0 },
-    { worldX = 38, worldY = 22, posX = 243, posY = 96, posZ = 0 }
+    { worldX = 38, worldY = 22, posX = 243, posY = 96, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 272, posY = 200, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 92, posY = 236, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 215, posY = 240, posZ = 0 },
@@ -83,7 +83,7 @@ return {
     { worldX = 38, worldY = 22, posX = 240, posY = 277, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 243, posY = 96, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 94, posY = 102, posZ = 0 },
-    { worldX = 38, worldY = 22, posX = 12, posY = 124, posZ = 0 }
+    { worldX = 38, worldY = 22, posX = 12, posY = 124, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 272, posY = 200, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 272, posY = 248, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 215, posY = 240, posZ = 0 },
@@ -107,7 +107,7 @@ return {
     { worldX = 38, worldY = 22, posX = 243, posY = 96, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 94, posY = 102, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 12, posY = 124, posZ = 0 },
-    { worldX = 37, worldY = 22, posX = 267, posY = 275, posZ = 0 }
+    { worldX = 37, worldY = 22, posX = 267, posY = 275, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 216, posY = 176, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 173, posY = 278, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 175, posY = 245, posZ = 0 },
@@ -131,7 +131,7 @@ return {
     { worldX = 38, worldY = 23, posX = 80, posY = 124, posZ = 0 },
     { worldX = 38, worldY = 23, posX = 133, posY = 24, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 240, posY = 277, posZ = 0 },
-    { worldX = 38, worldY = 22, posX = 94, posY = 102, posZ = 0 }
+    { worldX = 38, worldY = 22, posX = 94, posY = 102, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 272, posY = 200, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 92, posY = 236, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 175, posY = 245, posZ = 0 },
@@ -155,7 +155,7 @@ return {
     { worldX = 38, worldY = 22, posX = 243, posY = 96, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 94, posY = 102, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 12, posY = 124, posZ = 0 },
-    { worldX = 37, worldY = 22, posX = 197, posY = 130, posZ = 0 }
+    { worldX = 37, worldY = 22, posX = 197, posY = 130, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 216, posY = 176, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 175, posY = 245, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 272, posY = 248, posZ = 0 },
@@ -179,7 +179,7 @@ return {
     { worldX = 38, worldY = 22, posX = 243, posY = 96, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 94, posY = 102, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 12, posY = 124, posZ = 0 },
-    { worldX = 37, worldY = 22, posX = 197, posY = 130, posZ = 0 }
+    { worldX = 37, worldY = 22, posX = 197, posY = 130, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 173, posY = 278, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 272, posY = 248, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 199, posY = 281, posZ = 0 },
@@ -203,7 +203,7 @@ return {
     { worldX = 38, worldY = 22, posX = 243, posY = 96, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 94, posY = 102, posZ = 0 },
     { worldX = 38, worldY = 22, posX = 12, posY = 124, posZ = 0 },
-    { worldX = 37, worldY = 22, posX = 197, posY = 130, posZ = 0 }
+    { worldX = 37, worldY = 22, posX = 197, posY = 130, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 216, posY = 176, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 173, posY = 278, posZ = 0 },
     { worldX = 41, worldY = 22, posX = 92, posY = 236, posZ = 0 },
