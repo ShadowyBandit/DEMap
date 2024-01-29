@@ -1,0 +1,5 @@
+name=InGameMaps [West Point Expansion]
+id=InGameMaps_WestPointExpansion
+description=Add In-Game maps for West Point Expansion
+poster=poster.png
+require=WestPointExpansion,InGameMaps
